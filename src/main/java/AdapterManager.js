@@ -1,0 +1,5 @@
+moduleManager.addModule("AdapterManager",{
+
+
+
+});

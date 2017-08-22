@@ -1,0 +1,81 @@
+{
+    "adSlots": {
+        "1": {
+            "adSlotId": 1,
+            "name": "rhs_160x900",
+            "size": [
+                {
+                    "width": 160,
+                    "height": 900
+                }
+            ]
+        },
+        "2": {
+            "adSlotId": 2,
+            "name": "atf_728x90",
+            "size": [
+                {
+                    "width": 728,
+                    "height": 90
+                }
+            ]
+        },
+        "3": {
+            "adSlotId": 3,
+            "name": "lhs_160x900",
+            "size": [
+                {
+                    "width": 160,
+                    "height": 900
+                }
+            ]
+        }
+    },
+    "providers": {
+        "1": {
+            "providerId": "1",
+            "isActive": 1,
+            "providerName": "Provider_1"
+        },
+        "2": {
+            "providerId": "2",
+            "isActive": 1,
+            "providerName": "Provider_2"
+        },
+        "3": {
+            "providerId": "3",
+            "isActive": 0,
+            "providerName": "Provider_3"
+        }
+    },
+    "providersMap": {
+        "1": [
+            {
+                "providerId": 1,
+                "revShare": 0.1,
+                "epc": "a1",
+                "floorPrice": 3
+            },
+            {
+                "providerId": 2,
+                "revShare": 0.05,
+                "epc": "a1",
+                "floorPrice": 5
+            }
+        ],
+        "2": [
+            {
+                "providerId": 2,
+                "revShare": 0.1,
+                "epc": "a2",
+                "floorPrice": 3
+            },
+            {
+                "providerId": 3,
+                "revShare": 0.1,
+                "epc": "a2",
+                "floorPrice": 2
+            }
+        ]
+    }
+}

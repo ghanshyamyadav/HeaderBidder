@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#ad1 {
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+#iframe1 {
+    height: 100%;
+    width: 100%;
+}
+
+#ad2 {
+    height: 800px;
+
+}
+
+.threeBlock {
+
+    width: 31%;
+    top: 0%;
+    float: left;
+    height: 100%;
+    margin: 5px;
+}
+
+#para1 {
+
+    position: center;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+#iframe2 {
+
+    float: right;
+    top: 0%;
+    height: 50%;
+    width: 55%;
+}
