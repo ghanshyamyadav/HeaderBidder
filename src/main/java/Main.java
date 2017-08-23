@@ -33,7 +33,12 @@ public class Main {
            //return config + new Scanner(new File(new File("").getAbsolutePath()+"/src/main/java/core.js")).useDelimiter("\\Z").next();
 
            return "var config="+config+";"
-                    +FileReader(absolutePath+"core.js");
+                   +FileReader((absolutePath+"ModuleManager.js"))
+                   +FileReader((absolutePath+"core.js"))
+                   +FileReader((absolutePath+"AuctionManager.js"))
+                   +FileReader((absolutePath+"SlotAuction.js"))
+                   +FileReader((absolutePath+"AdapterManager.js"))
+                   +FileReader((absolutePath+"Adapter.js"));
 
 
        });

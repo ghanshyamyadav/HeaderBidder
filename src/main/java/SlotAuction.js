@@ -4,15 +4,15 @@ moduleManager.addModule("SlotAuction", function(){
     var _timer = 0;
     var adID;
     var bidReceived = 0;
-    this.bidsDetail = [];
-    this.winnerBid={};
+    var bidsDetail = [];
+    var winnerBidDetais={};
 
 
 
     function registerAuction(adid) {
 
         adID=adid;
-        setTimeout(closeAuction,10000);
+        setTimeout(closeAuction,900);
         isAuctionClosed=false;
 
     }
@@ -25,10 +25,16 @@ moduleManager.addModule("SlotAuction", function(){
 
     }
 
-    function addBid(bid) {
+    function addBid(bidDetails) {
 
-        bidsDetail.push(bid);
-        bidReceived++;
+        if(!isAuctionClosed){
+
+
+            bidsDetail.push(bidDetails);
+            //console.log(bidDetails);
+            bidReceived++;
+        }
+
 
     }
 
@@ -36,12 +42,24 @@ moduleManager.addModule("SlotAuction", function(){
 
 
         //this.winnerBid=
+        var maxBid={};
+
+        if(bidsDetail.length>0)
+        {
+            maxBid=bidsDetail[0];
+            //maxBid.bid=0;
+            for(var i=0;i<bidsDetail.length;i++){
+                maxBid=(maxBid.bid>bidsDetail[i].bid)?maxBid:bidsDetail[i];
+                //console.log(bidsDetail[i]);
+            }
+        }
+        winnerBidDetais=maxBid;
 
     }
 
-    function getWinnerBid(){
+    function getWinnerBidDetails(){
 
-
+        return winnerBidDetais;
 
     }
 
@@ -49,7 +67,7 @@ moduleManager.addModule("SlotAuction", function(){
 
         registerAuction:registerAuction,
         addBid: addBid,
-        getWinnerBid: getWinnerBid
+        getWinnerBidDetails: getWinnerBidDetails
 
     }
 

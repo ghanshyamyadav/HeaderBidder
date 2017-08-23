@@ -8,7 +8,7 @@ var moduleManager= (function ModuleManager(){
 
     }
 
-    function setModule(moduleName,functionBody) {
+    function addModule(moduleName,functionBody) {
 
         _modules[moduleName] = functionBody;
     }
@@ -25,7 +25,8 @@ var moduleManager= (function ModuleManager(){
 
     return{
 
-        setModule: setModule,
+        addModule: addModule,
         getModule: getModule
     }
 })();
+

@@ -1,8 +1,8 @@
-moduleManager.addModule("AuctionManager",function (slotAuction){
+moduleManager.addModule("AuctionManager",function (SlotAuction){
 
     var slotAuctions={};
     var config;
-
+    var winnerBids={};
 
 
     function registerAuctions(configParameter) {
@@ -10,13 +10,15 @@ moduleManager.addModule("AuctionManager",function (slotAuction){
         config=configParameter;
         for(var i=0;i<config.adSlots.length;i++){
 
-            if(!(config.adSlots.adID in slotAuctions))
+            if(config.adSlots[i].adID in slotAuctions)
             {
-                slotAuctions[config.adSlots[i].adID]=slotAuction();
+                continue;
 
             }
+            slotAuctions[config.adSlots[i].adID]=SlotAuction();
+            slotAuctions[config.adSlots[i].adID].registerAuction(config.adSlots[i].adID);
 
-            slotAuctions[config.adSlots[i].adID].registerAuction(adID);
+
         }
 
 
@@ -25,9 +27,17 @@ moduleManager.addModule("AuctionManager",function (slotAuction){
     function addBids(bidsDetail){
 
 
-        for(var i=0;i<bidsDetail.length;i++){
+        var adIDs=Object.keys(bidsDetail);
+        console.log(adIDs);
+        for(var i=0;i<adIDs.length;i++){
 
-            slotAuctions[bidsDetail[i].adID].addBid(bidsDetail[i]);
+            for(var j=0;j<bidsDetail[adIDs[i]].length;j++){
+
+                slotAuctions[adIDs[i]].addBid(bidsDetail[adIDs[i]][j]);
+                //console.log(bidsDetail[adIDs[i]][j]);
+
+            }
+
         }
 
 
@@ -37,12 +47,16 @@ moduleManager.addModule("AuctionManager",function (slotAuction){
     function returnWinners(){
 
 
-        for(var i=0;i<config.adSlots.length;i++){
+        var adIDs=Object.keys(slotAuctions);
+        console.log(adIDs);
+        for(var i=0;i<adIDs.length;i++){
 
-            slotAuctions[config.adSlots[i].adID].getWinnerBid();
+            winnerBids[adIDs[i]]=slotAuctions[adIDs[i]].getWinnerBidDetails();
+            console.log(winnerBids[adIDs[i]]);
 
 
         }
+        return winnerBids;
 
     }
 
