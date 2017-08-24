@@ -34,11 +34,17 @@ public class Main {
 
            return "var config="+config+";"
                    +FileReader((absolutePath+"ModuleManager.js"))
-                   +FileReader((absolutePath+"core.js"))
-                   +FileReader((absolutePath+"AuctionManager.js"))
                    +FileReader((absolutePath+"SlotAuction.js"))
+                   +FileReader((absolutePath+"AuctionManager.js"))
+                   +FileReader((absolutePath+"Adapter.js"))
                    +FileReader((absolutePath+"AdapterManager.js"))
-                   +FileReader((absolutePath+"Adapter.js"));
+
+
+
+                   +FileReader((absolutePath+"core.js"));
+
+
+
 
 
        });

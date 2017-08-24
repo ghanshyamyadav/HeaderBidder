@@ -1,53 +1,73 @@
-moduleManager.addModule("Adapter",function(auctionManager){
+moduleManager.addModule("Adapter",["AuctionManager"],function(auctionManager){
 
-
+    var adSlotIDs;
     function getBids()
     {
 
-        var bids= {
 
-            "1":[
-                {bid:5,"NO BID":false, adCode:"http://localhost:80/Server1/file1.jpg",EPC:1,size:{height:440,width:1284}, providerID: 1},
-                {bid:7,"NO BID":false, adCode:"http://localhost/Server1/file1.jpg",EPC:2,size:{height:440,width:1284}, providerID: 2},
-                 {bid:8,"NO BID":false, adCode:"http://localhost:80/Server1/file2.jpg",EPC:3,size:{height:440,width:1284}, providerID: 3},
-                 {bid:7,"NO BID":false, adCode:"http://localhost/Server1/file1.jpg",EPC:4,size:{height:440,width:1284}, providerID: 4},
-                ],
-            "2":[
-                {bid:5,"NO BID":false, adCode:"http://localhost/Server1/file2.jpg",EPC:1,size:{height:440,width:284}, providerID: 1},
-                {bid:7,"NO BID":false, adCode:"http://localhost:80/Server1/file3.jpg",EPC:2,size:{height:440,width:284}, providerID: 2},
-                {bid:6,"NO BID":false, adCode:"http://localhost/Server1/file2.jpg",EPC:3,size:{height:440,width:284}, providerID: 3},
-                {bid:4,"NO BID":false, adCode:"http://localhost/Server1/file2.jpg",EPC:4,size:{height:440,width:284}, providerID: 4},
-            ]
-
-        };
-        var requestData=[];
-        var adSlotIDs=Object.keys(config.providersMap);
+        var requestData={};
+        adSlotIDs=Object.keys(config.providersMap);
+        console.log(adSlotIDs);
+        console.log('you');
+        var requestArray=[];
         for(var i=0,size=adSlotIDs.length;i<size;i++){
 
-            var requestObject={};
-            requestObject.adID=adSlotIDs[i];
-            for(var j=0,arraySize=config.providersMap[adSlotIDs[i]].length;j<arraySize;j++){
 
-                requestObject.epc=config.providersMap[adSlotIDs[i]][j].epc;
+            var providerIDs=Object.keys(config.providersMap[adSlotIDs[i]]);
+            for(var j=0,arraySize=providerIDs.length;j<arraySize;j++){
+
+                var requestObject={};
+                requestObject.adID=adSlotIDs[i];
+                requestObject.epc=config.providersMap[adSlotIDs[i]][providerIDs[j]].epc;
                 requestObject.entryPoint=config.providers[adSlotIDs[i]].entryPoint;
-                requestObject.size=config.adSlots[adSlotIDs[i]].adID;
-            }
-            requestData.push(requestObject);
-        }
-        var scriptElement=document.createElement('script');
-        scriptElement.src="http://localhost:9666/getBids?config="+requestData;
+                console.log(config.adSlots[adSlotIDs[i]]);
+                console.log((config.adSlots[adSlotIDs[i]]).size_height);
+                requestObject.size_height=(config.adSlots[adSlotIDs[i]]).size_height;
 
-        auctionManager.addBids(bids);
+                requestArray.push(requestObject);
+            }
+
+
+        }
+        console.log(requestArray);
+        requestData['config']=requestArray;
+        requestData['callback']='moduleManager.getModule("Adapter").handleResponse';
+        var scriptElement=document.createElement('script');
+        scriptElement.src="http://localhost:9666/getBids?config="+JSON.stringify(requestData);
+        //scriptElement.textContent=auctionManager.addBids(bidsData);
+        document.head.appendChild(scriptElement);
+
+
+    }
+
+    function handleResponse(response){
+
+        console.log(response);
+        var bidsDetail={};
+        for(var i=0,size=response.length;i<size;i++){
+
+            if(!(response[i].adID in bidsDetail)){
+
+                bidsDetail[response[i].adID]=[];
+
+            }
+            //response[i].
+            bidsDetail[response[i].adID].push(response[i]);
+
+
+        }
+        auctionManager.addBids(bidsDetail);
+
+
 
     }
 
     return{
 
-        getBids:getBids
+        getBids:getBids,
+        handleResponse: handleResponse
     }
 
 
 
 });
-var core=(moduleManager.getModule("Core"))(moduleManager.getModule("AuctionManager"),moduleManager.getModule("SlotAuction"),moduleManager.getModule("AdapterManager"),moduleManager.getModule("Adapter"));
-core.execute();

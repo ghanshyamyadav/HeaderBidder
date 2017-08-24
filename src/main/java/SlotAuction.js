@@ -1,75 +1,76 @@
-moduleManager.addModule("SlotAuction", function(){
-
-    var isAuctionClosed = true;
-    var _timer = 0;
-    var adID;
-    var bidReceived = 0;
-    var bidsDetail = [];
-    var winnerBidDetais={};
+moduleManager.addModule("SlotAuction",[], function(){
 
 
-
-    function registerAuction(adid) {
-
-        adID=adid;
-        setTimeout(closeAuction,900);
-        isAuctionClosed=false;
-
-    }
-
-
-    function closeAuction() {
-
-        isAuctionClosed=true;
-        performAuction();
-
-    }
-
-    function addBid(bidDetails) {
-
-        if(!isAuctionClosed){
+    return (function() {
+        var isAuctionClosed = true;
+        var _timer = 0;
+        var adID;
+        var bidReceived = 0;
+        var bidsDetail = [];
+        var winnerBidDetais = {};
 
 
-            bidsDetail.push(bidDetails);
-            //console.log(bidDetails);
-            bidReceived++;
+        function registerAuction(adid) {
+
+            adID = adid;
+            setTimeout(closeAuction, 900);
+            isAuctionClosed = false;
+
         }
 
 
-    }
+        function closeAuction() {
 
-    var performAuction = function () {
+            isAuctionClosed = true;
+            performAuction();
+
+        }
+
+        function addBid(bidDetails) {
+
+            if (!isAuctionClosed) {
 
 
-        //this.winnerBid=
-        var maxBid={};
-
-        if(bidsDetail.length>0)
-        {
-            maxBid=bidsDetail[0];
-            //maxBid.bid=0;
-            for(var i=0;i<bidsDetail.length;i++){
-                maxBid=(maxBid.bid>bidsDetail[i].bid)?maxBid:bidsDetail[i];
-                //console.log(bidsDetail[i]);
+                bidsDetail.push(bidDetails);
+                //console.log(bidDetails);
+                bidReceived++;
             }
+
+
         }
-        winnerBidDetais=maxBid;
 
-    }
+        var performAuction = function () {
 
-    function getWinnerBidDetails(){
 
-        return winnerBidDetais;
+            //this.winnerBid=
+            var maxBid = {};
 
-    }
+            if (bidsDetail.length > 0) {
+                maxBid = bidsDetail[0];
+                //maxBid.bid=0;
+                for (var i = 0; i < bidsDetail.length; i++) {
+                    maxBid = (maxBid.bid > bidsDetail[i].bid) ? maxBid : bidsDetail[i];
+                    //console.log(bidsDetail[i]);
+                }
+            }
+            winnerBidDetais = maxBid;
 
-    return{
+        }
 
-        registerAuction:registerAuction,
-        addBid: addBid,
-        getWinnerBidDetails: getWinnerBidDetails
+        function getWinnerBidDetails() {
 
-    }
+            return winnerBidDetais;
+
+        }
+
+        return {
+
+            registerAuction: registerAuction,
+            addBid: addBid,
+            getWinnerBidDetails: getWinnerBidDetails
+
+        }
+    });
 
 
 });

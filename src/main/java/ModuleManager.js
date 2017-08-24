@@ -8,9 +8,14 @@ var moduleManager= (function ModuleManager(){
 
     }
 
-    function addModule(moduleName,functionBody) {
+    function addModule(moduleName,dependencies,functionBody) {
 
-        _modules[moduleName] = functionBody;
+        for (var i = 0; i < dependencies.length; i++) {
+            dependencies[i] = _modules[dependencies[i]];
+        }
+
+
+        _modules[moduleName] = functionBody.apply(functionBody,dependencies);
     }
 
     /*function setModule(moduleName,dependencies,functionBody){

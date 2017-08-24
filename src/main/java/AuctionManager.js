@@ -1,4 +1,4 @@
-moduleManager.addModule("AuctionManager",function (SlotAuction){
+moduleManager.addModule("AuctionManager",["SlotAuction"],function (SlotAuction){
 
     var slotAuctions={};
     var config;
@@ -9,6 +9,8 @@ moduleManager.addModule("AuctionManager",function (SlotAuction){
 
         config=configParameter;
         var adSlots=Object.keys(config.adSlots);
+        console.log((adSlots));
+        console.log("hi");
         for(var i=0;i<adSlots.length;i++){
 
             if(config.adSlots[adSlots[i]].adID in slotAuctions)
@@ -30,6 +32,7 @@ moduleManager.addModule("AuctionManager",function (SlotAuction){
 
         var adIDs=Object.keys(bidsDetail);
         console.log(adIDs);
+        console.log("hiii");
         for(var i=0;i<adIDs.length;i++){
 
             for(var j=0;j<bidsDetail[adIDs[i]].length;j++){

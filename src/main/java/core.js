@@ -1,14 +1,15 @@
-moduleManager.addModule("Core",function(AuctionManager,SlotAuction,AdapterManager,Adapter){
+moduleManager.addModule("Core",["AuctionManager","SlotAuction","AdapterManager","Adapter"],function(auctionManager,slotAuction,adapterManager,adapter){
 
 
 
     var winnersDetail={};
     function execute(){
 
-        var auctionManager=AuctionManager(SlotAuction);
+        //var auctionManager=AuctionManager(SlotAuction);
         auctionManager.registerAuctions(config);
-        var adapterManager=AdapterManager(auctionManager,Adapter);
+        //var adapterManager=AdapterManager(auctionManager,Adapter);
         adapterManager.execute();
+
 
         setTimeout(displayAds,1000,auctionManager);
 
@@ -39,7 +40,8 @@ moduleManager.addModule("Core",function(AuctionManager,SlotAuction,AdapterManage
 
     return{
 
-        execute:execute
+        execute:execute,
+        //displayAds:displayAds
     }
 
 
@@ -50,3 +52,5 @@ moduleManager.addModule("Core",function(AuctionManager,SlotAuction,AdapterManage
 
 
 });
+var core=(moduleManager.getModule("Core"));//(moduleManager.getModule("AuctionManager"),moduleManager.getModule("SlotAuction"),moduleManager.getModule("AdapterManager"),moduleManager.getModule("Adapter"));
+core.execute();

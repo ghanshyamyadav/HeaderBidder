@@ -1,9 +1,9 @@
-moduleManager.addModule("AdapterManager",function(auctionManager,Adapter){
+moduleManager.addModule("AdapterManager",["Adapter"],function(adapter){
 
 
     function execute() {
 
-        var adapter = Adapter(auctionManager);
+        //var adapter = Adapter(auctionManager);
         adapter.getBids();
 
 
