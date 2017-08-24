@@ -9,14 +9,19 @@ h1 {
 }
 
 #ad1 {
-    height: 200px;
+    height: 245px;
     width: 50%;
     margin: auto;
-    padding: 20px;
+
 
 }
 
 #iframe1 {
+    height: 100%;
+    width: 100%;
+}
+
+#1 {
     height: 100%;
     width: 100%;
 }
@@ -47,6 +52,24 @@ h1 {
 #iframe2 {
 
     float: right;
+    top: 0%;
+    height: 50%;
+    width: 55%;
+}
+#div2 {
+
+    float: right;
+    margin:auto;
+    right:0px;
+    top: 10%;
+    height: 50%;
+    width: 55%;
+}
+#2 {
+
+    float: right;
+    margin:auto;
+    right:0px;
     top: 0%;
     height: 50%;
     width: 55%;

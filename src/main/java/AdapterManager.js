@@ -16,3 +16,4 @@ moduleManager.addModule("AdapterManager",function(auctionManager,Adapter){
 
 
 });
+

@@ -35,12 +35,31 @@ public class DBReader {
     }
 
     public String getConfig(int publisherID) throws Exception {
-        JSONObject jsonObject = new JSONObject();
-        JSONArray adSlots = executeQuery("select * from placements where publisherID=" + publisherID);
+        JSONObject config = new JSONObject();
+        JSONObject providersMapObject=new JSONObject();
+        JSONArray adSlots = executeQuery("select * from adSlots where publisherID=" + publisherID);
+        JSONObject adSlotsObject=new JSONObject();
         JSONArray providers = executeQuery("select * from providers");
-        jsonObject.put("adSlots", adSlots);
-        jsonObject.put("providers", providers);
-        return jsonObject.toString();
+        JSONObject providersObject=new JSONObject();
+        for(int i=0,size=providers.length();i<size;i++){
+
+            JSONObject objectINArray=providers.getJSONObject(i);
+            providersObject.put(objectINArray.getString("id"),objectINArray);
+        }
+
+        for(int i=0,size=adSlots.length();i<size;i++){
+
+            JSONObject objectINArray=adSlots.getJSONObject(i);
+            JSONArray adSlotProviders=executeQuery("select * from providersMap where adID="+objectINArray.getInt("adID"));
+            providersMapObject.put(objectINArray.getString("adID"),adSlotProviders);
+
+            adSlotsObject.put(objectINArray.getString("adID"),objectINArray);
+
+        }
+        config.put("adSlots", adSlotsObject);
+        config.put("providers", providersObject);
+        config.put("providersMap",providersMapObject);
+        return config.toString();
 
     }
 

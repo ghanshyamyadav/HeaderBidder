@@ -1,3 +1,4 @@
+<iframe src="" id="1"></iframe>
 {
     "adSlots": {
         "1": {
@@ -79,3 +80,1306 @@
         ]
     }
 }
+
+var configSettings = {
+    provider: {
+        528273667: {
+            33: {
+                prvid: "33",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: "10045132"}, {size: "970x250", ext_pl_code: "10045132"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: ""}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            },
+            56: {
+                prvid: "56",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 5,
+                sizes: [{size: "728x90", ext_pl_code: "mnet-7175-728x90-us"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0
+            },
+            28: {
+                prvid: "28",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: "464948"}, {size: "970x250", ext_pl_code: "464953"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            10000: {
+                prvid: "10000",
+                pvsh: 0,
+                pbsh: 80,
+                dpsh: 0,
+                sizes: [{size: "970x250", ext_pl_code: "587371326"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                auto: 100,
+                ext_pub_code: "8CUQ33R4V"
+            },
+            51: {
+                prvid: "51",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 1,
+                sizes: [{size: "728x90", ext_pl_code: "10854065"}, {size: "970x250", ext_pl_code: "10854065"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "879182"
+            },
+            43: {
+                prvid: "43",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 50,
+                sizes: [{size: "728x90", ext_pl_code: "539035642"}, {size: "970x250", ext_pl_code: "539035642"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "537144445"
+            }
+        },
+        951705627: {
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: ""}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            },
+            56: {
+                prvid: "56",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 5,
+                sizes: [{size: "300x250", ext_pl_code: "mnet-7175-300x250-us"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0
+            },
+            28: {
+                prvid: "28",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "464942"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            10000: {
+                prvid: "10000",
+                pvsh: 0,
+                pbsh: 80,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "926567746"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                auto: 100,
+                ext_pub_code: "8CUQ33R4V"
+            },
+            64: {
+                prvid: "64",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "1077"}],
+                test_mode: !0,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            43: {
+                prvid: "43",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 50,
+                sizes: [{size: "300x250", ext_pl_code: "539035643"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "537144445"
+            }
+        },
+        231281379: {
+            33: {
+                prvid: "33",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "10045006"}, {size: "300x600", ext_pl_code: "10045006"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: ""}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            },
+            23: {
+                prvid: "23",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "10256879_2599690"}, {
+                    size: "300x600",
+                    ext_pl_code: "10256879_2599690"
+                }],
+                test_mode: !1,
+                hb: !0,
+                prf: !1
+            },
+            56: {
+                prvid: "56",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 5,
+                sizes: [{size: "300x250", ext_pl_code: "mnet-7175-300x250-us"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0
+            },
+            28: {
+                prvid: "28",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "464942"}, {size: "300x600", ext_pl_code: "464943"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            10000: {
+                prvid: "10000",
+                pvsh: 0,
+                pbsh: 80,
+                dpsh: 0,
+                sizes: [{size: "300x600", ext_pl_code: "162372358"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                auto: 100,
+                ext_pub_code: "8CUQ33R4V"
+            },
+            51: {
+                prvid: "51",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 1,
+                sizes: [{size: "300x250", ext_pl_code: "10854062"}, {size: "300x600", ext_pl_code: "10854062"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "879182"
+            },
+            43: {
+                prvid: "43",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 50,
+                sizes: [{size: "300x250", ext_pl_code: "539035640"}, {size: "300x600", ext_pl_code: "539035640"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "537144445"
+            }
+        },
+        867969797: {
+            33: {
+                prvid: "33",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: "10045132"}, {size: "970x250", ext_pl_code: "10045132"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: ""}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            },
+            23: {
+                prvid: "23",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: "10495598_2599690"}, {
+                    size: "970x250",
+                    ext_pl_code: "10495598_2599690"
+                }],
+                test_mode: !1,
+                hb: !0,
+                prf: !1
+            },
+            56: {
+                prvid: "56",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 5,
+                sizes: [{size: "728x90", ext_pl_code: "mnet-7175-728x90-us"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0
+            },
+            59: {
+                prvid: "59",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: "_111999"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1
+            },
+            28: {
+                prvid: "28",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: "464948"}, {size: "970x250", ext_pl_code: "464953"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            10000: {
+                prvid: "10000",
+                pvsh: 0,
+                pbsh: 80,
+                dpsh: 0,
+                sizes: [{size: "970x250", ext_pl_code: "536835148"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                auto: 100,
+                ext_pub_code: "8CUQ33R4V"
+            },
+            51: {
+                prvid: "51",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 1,
+                sizes: [{size: "728x90", ext_pl_code: "10854061"}, {size: "970x250", ext_pl_code: "10854061"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "879182"
+            },
+            64: {
+                prvid: "64",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: "1081"}],
+                test_mode: !0,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            43: {
+                prvid: "43",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 50,
+                sizes: [{size: "728x90", ext_pl_code: "539035639"}, {size: "970x250", ext_pl_code: "539035639"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "537144445"
+            }
+        },
+        941664466: {
+            33: {
+                prvid: "33",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "10045006"}, {size: "300x600", ext_pl_code: "10045006"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: ""}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            },
+            23: {
+                prvid: "23",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "10495601_2599690"}, {
+                    size: "300x600",
+                    ext_pl_code: "10495601_2599690"
+                }],
+                test_mode: !1,
+                hb: !0,
+                prf: !1
+            },
+            56: {
+                prvid: "56",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 5,
+                sizes: [{size: "300x250", ext_pl_code: "mnet-7175-300x250-us"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0
+            },
+            28: {
+                prvid: "28",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "464942"}, {size: "300x600", ext_pl_code: "464943"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            10000: {
+                prvid: "10000",
+                pvsh: 0,
+                pbsh: 80,
+                dpsh: 0,
+                sizes: [{size: "300x600", ext_pl_code: "654624285"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                auto: 100,
+                ext_pub_code: "8CUQ33R4V"
+            },
+            51: {
+                prvid: "51",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 1,
+                sizes: [{size: "300x250", ext_pl_code: "10854063"}, {size: "300x600", ext_pl_code: "10854063"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "879182"
+            },
+            43: {
+                prvid: "43",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 50,
+                sizes: [{size: "300x250", ext_pl_code: "539035644"}, {size: "300x600", ext_pl_code: "539035644"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "537144445"
+            },
+            3: {
+                path: "\/45361917\/8CUX956JU-941664466-hb",
+                adtagId: "158068637",
+                increment: 40,
+                ceilP: 3.75,
+                prediction: {seed: 5, increment: 40, decrement: 25},
+                prvid: "3"
+            }
+        },
+        547351504: {
+            33: {
+                prvid: "33",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "10045006"}, {size: "300x600", ext_pl_code: "10045006"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: ""}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            },
+            23: {
+                prvid: "23",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "10495599_2599690"}, {
+                    size: "300x600",
+                    ext_pl_code: "10495599_2599690"
+                }],
+                test_mode: !1,
+                hb: !0,
+                prf: !1
+            },
+            56: {
+                prvid: "56",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 5,
+                sizes: [{size: "300x250", ext_pl_code: "mnet-7175-300x250-us"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0
+            },
+            28: {
+                prvid: "28",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "464942"}, {size: "300x600", ext_pl_code: "464943"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            10000: {
+                prvid: "10000",
+                pvsh: 0,
+                pbsh: 80,
+                dpsh: 0,
+                sizes: [{size: "300x600", ext_pl_code: "273093528"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                auto: 100,
+                ext_pub_code: "8CUQ33R4V"
+            },
+            51: {
+                prvid: "51",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 1,
+                sizes: [{size: "300x250", ext_pl_code: "10854059"}, {size: "300x600", ext_pl_code: "10854059"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "879182"
+            },
+            64: {
+                prvid: "64",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "1084"}, {size: "300x600", ext_pl_code: "1090"}],
+                test_mode: !0,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            43: {
+                prvid: "43",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 50,
+                sizes: [{size: "300x250", ext_pl_code: "539035637"}, {size: "300x600", ext_pl_code: "539035637"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "537144445"
+            },
+            3: {
+                path: "\/45361917\/8CUX956JU-547351504-hb",
+                adtagId: "158068517",
+                increment: 40,
+                ceilP: 3.75,
+                prediction: {seed: 5, increment: 40, decrement: 25},
+                prvid: "3"
+            }
+        },
+        803427429: {
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "640x480", ext_pl_code: ""}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            },
+            10000: {
+                prvid: "10000",
+                pvsh: 0,
+                pbsh: 80,
+                dpsh: 0,
+                sizes: [{size: "640x480", ext_pl_code: "617970578"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                auto: 100,
+                ext_pub_code: "8CUQ33R4V"
+            }
+        },
+        161351051: {
+            77: {
+                prvid: "77",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: ""}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1
+            },
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "161351051"}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            }
+        },
+        466811878: {
+            33: {
+                prvid: "33",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "10045006"}, {size: "300x600", ext_pl_code: "10045006"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                ext_pub_code: "8CUX956JU"
+            },
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: ""}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            },
+            23: {
+                prvid: "23",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "10495600_2599690"}, {
+                    size: "300x600",
+                    ext_pl_code: "10495600_2599690"
+                }],
+                test_mode: !1,
+                hb: !0,
+                prf: !1
+            },
+            56: {
+                prvid: "56",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 5,
+                sizes: [{size: "300x250", ext_pl_code: "mnet-7175-300x250-us"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1
+            },
+            28: {
+                prvid: "28",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "464942"}, {size: "300x600", ext_pl_code: "464943"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                ext_pub_code: "8CUX956JU"
+            },
+            10000: {
+                prvid: "10000",
+                pvsh: 0,
+                pbsh: 80,
+                dpsh: 0,
+                sizes: [{size: "300x600", ext_pl_code: "947315848"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                auto: 100,
+                ext_pub_code: "8CUQ33R4V"
+            },
+            51: {
+                prvid: "51",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 1,
+                sizes: [{size: "300x250", ext_pl_code: "10854060"}, {size: "300x600", ext_pl_code: "10854060"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                ext_pub_code: "879182"
+            },
+            64: {
+                prvid: "64",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "1087"}, {size: "300x600", ext_pl_code: "1097"}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1,
+                ext_pub_code: "8CUX956JU"
+            },
+            43: {
+                prvid: "43",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 50,
+                sizes: [{size: "300x250", ext_pl_code: "539035638"}, {size: "300x600", ext_pl_code: "539035638"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                ext_pub_code: "537144445"
+            },
+            3: {
+                path: "\/45361917\/8CUX956JU-466811878-HB",
+                adtagId: "156361037",
+                increment: 40,
+                ceilP: 3.75,
+                prediction: {seed: 5, increment: 40, decrement: 25},
+                prvid: "3"
+            }
+        },
+        562746473: {
+            33: {
+                prvid: "33",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "10045006"}, {size: "300x600", ext_pl_code: "10045006"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: ""}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            },
+            23: {
+                prvid: "23",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "10256877_2599690"}, {
+                    size: "300x600",
+                    ext_pl_code: "10256877_2599690"
+                }],
+                test_mode: !1,
+                hb: !0,
+                prf: !1
+            },
+            56: {
+                prvid: "56",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 5,
+                sizes: [{size: "300x250", ext_pl_code: "mnet-7175-300x250-us"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0
+            },
+            28: {
+                prvid: "28",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "464942"}, {size: "300x600", ext_pl_code: "464943"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            10000: {
+                prvid: "10000",
+                pvsh: 0,
+                pbsh: 80,
+                dpsh: 0,
+                sizes: [{size: "300x600", ext_pl_code: "344204026"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                auto: 100,
+                ext_pub_code: "8CUQ33R4V"
+            },
+            51: {
+                prvid: "51",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 1,
+                sizes: [{size: "300x250", ext_pl_code: "10854058"}, {size: "300x600", ext_pl_code: "10854058"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "879182"
+            },
+            64: {
+                prvid: "64",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "1075"}, {size: "300x600", ext_pl_code: "1080"}],
+                test_mode: !0,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            43: {
+                prvid: "43",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 50,
+                sizes: [{size: "300x250", ext_pl_code: "539035636"}, {size: "300x600", ext_pl_code: "539035636"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "537144445"
+            },
+            3: {
+                path: "\/45361917\/8CUX956JU-562746473-hb",
+                adtagId: "158068397",
+                increment: 40,
+                ceilP: 3.75,
+                prediction: {seed: 5, increment: 40, decrement: 25},
+                prvid: "3"
+            }
+        },
+        662280996: {
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: ""}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            },
+            56: {
+                prvid: "56",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 5,
+                sizes: [{size: "300x250", ext_pl_code: "mnet-7175-300x250-us"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0
+            },
+            28: {
+                prvid: "28",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "464942"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            10000: {
+                prvid: "10000",
+                pvsh: 0,
+                pbsh: 80,
+                dpsh: 0,
+                sizes: [{size: "300x250", ext_pl_code: "521516185"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                auto: 100,
+                ext_pub_code: "8CUQ33R4V"
+            },
+            43: {
+                prvid: "43",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 50,
+                sizes: [{size: "300x250", ext_pl_code: "539035645"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "537144445"
+            }
+        },
+        256589311: {
+            33: {
+                prvid: "33",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: "10045132"}, {size: "970x250", ext_pl_code: "10045132"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            99: {
+                prvid: "99",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: ""}],
+                test_mode: !0,
+                hb: !0,
+                prf: !1
+            },
+            56: {
+                prvid: "56",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 5,
+                sizes: [{size: "728x90", ext_pl_code: "mnet-7175-728x90-us"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0
+            },
+            28: {
+                prvid: "28",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 0,
+                sizes: [{size: "728x90", ext_pl_code: "464948"}, {size: "970x250", ext_pl_code: "464953"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "8CUX956JU"
+            },
+            10000: {
+                prvid: "10000",
+                pvsh: 0,
+                pbsh: 80,
+                dpsh: 0,
+                sizes: [{size: "970x250", ext_pl_code: "316669326"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !1,
+                auto: 100,
+                ext_pub_code: "8CUQ33R4V"
+            },
+            51: {
+                prvid: "51",
+                pvsh: 10,
+                pbsh: 100,
+                dpsh: 1,
+                sizes: [{size: "728x90", ext_pl_code: "10854066"}, {size: "970x250", ext_pl_code: "10854066"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "879182"
+            },
+            43: {
+                prvid: "43",
+                pvsh: 0,
+                pbsh: 100,
+                dpsh: 50,
+                sizes: [{size: "728x90", ext_pl_code: "539035641"}, {size: "970x250", ext_pl_code: "539035641"}],
+                test_mode: !1,
+                hb: !0,
+                prf: !0,
+                ext_pub_code: "537144445"
+            }
+        }
+    },
+    log: {pr: 2, ad: 1, sw: 10, prf: 0, aw: 1, gptr: 0, gpts: 1000, ck: 10, exp: 0, ap: 1, swEcpm: 0.5},
+    adSlots: {
+        528273667: {
+            dfpDivIds: "",
+            custTargs: [{key: "pos", value: "topx"}],
+            code: "topx",
+            crid: "528273667",
+            sizes: [[728, 90], [970, 250]],
+            pt: "",
+            amp: 0,
+            g: !0
+        },
+        951705627: {
+            dfpDivIds: "div-gpt-belowarticle*,",
+            custTargs: [{key: "pos", value: "belowarticle"}],
+            code: "div-gpt-belowarticle-1",
+            crid: "951705627",
+            sizes: [[300, 250]],
+            pt: "",
+            amp: 0,
+            g: !0
+        },
+        231281379: {
+            dfpDivIds: "",
+            custTargs: [{key: "pos", value: "text"}],
+            code: "text",
+            crid: "231281379",
+            sizes: [[300, 250], [300, 600]],
+            pt: "",
+            amp: 0,
+            g: !0
+        },
+        867969797: {
+            dfpDivIds: "",
+            custTargs: [{key: "pos", value: "top"}],
+            code: "top-ad-article-0",
+            crid: "867969797",
+            sizes: [[728, 90], [970, 250]],
+            pt: "",
+            amp: 0,
+            g: !0
+        },
+        941664466: {
+            dfpDivIds: "",
+            custTargs: [{key: "recx", value: "2"}],
+            code: "recx-ad-article-1-1",
+            crid: "941664466",
+            sizes: [[300, 250], [300, 600]],
+            pt: "",
+            g: !0
+        },
+        547351504: {
+            dfpDivIds: "",
+            custTargs: [{key: "pos", value: "rec"}],
+            code: "rec-ad-article-0",
+            crid: "547351504",
+            sizes: [[300, 250], [300, 600]],
+            pt: "",
+            amp: 0,
+            g: !0
+        },
+        803427429: {
+            dfpDivIds: "",
+            custTargs: [{key: "pos", value: "welcome"}],
+            code: "welcome",
+            crid: "803427429",
+            sizes: [[640, 480], [300, 600]],
+            pt: "",
+            amp: 0,
+            g: !0
+        },
+        161351051: {
+            dfpDivIds: "mnet-ebda-test-slot,",
+            custTargs: [],
+            code: "EBDA_Test_Slot",
+            crid: "161351051",
+            sizes: [[300, 250]],
+            pt: "",
+            amp: 0,
+            g: !1
+        },
+        466811878: {
+            dfpDivIds: "recx-ad-article-0*,",
+            custTargs: [],
+            code: "recx-ad-article-0-0",
+            crid: "466811878",
+            sizes: [[300, 250], [300, 600]],
+            pt: "",
+            amp: 0,
+            g: !1
+        },
+        562746473: {
+            dfpDivIds: "",
+            custTargs: [{key: "pos", value: "loge|loge-ws"}],
+            code: "loge-ad-article-0",
+            crid: "562746473",
+            sizes: [[300, 250], [300, 600]],
+            pt: "",
+            amp: 0,
+            g: !0
+        },
+        662280996: {
+            dfpDivIds: "",
+            custTargs: [{key: "pos", value: "mezz"}],
+            code: "mezz",
+            crid: "662280996",
+            sizes: [[300, 250]],
+            pt: "",
+            amp: 0,
+            g: !0
+        },
+        256589311: {
+            dfpDivIds: "",
+            custTargs: [{key: "pos", value: "bottom|bottom-ws"}],
+            code: "bottom",
+            crid: "256589311",
+            sizes: [[728, 90], [970, 250]],
+            pt: "",
+            amp: 0,
+            g: !0
+        }
+    },
+    providerMap: {
+        99: {
+            prvid: "99",
+            pvnm: "TEST_BIDDER",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "27",
+            mNet: !0,
+            clientSide: !0,
+            adv_dn: "unknown",
+            bidder: "testbidder"
+        },
+        11: {
+            prvid: "11",
+            pvnm: "OPENX",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "20",
+            mNet: !0,
+            clientSide: !0,
+            adv_dn: "unknown",
+            bidder: "openxbidder"
+        },
+        77: {
+            prvid: "77",
+            pvnm: "EBDA",
+            price_macro: "${AUCTION_PRICE}",
+            eid: null,
+            mNet: !1,
+            clientSide: !1,
+            adv_dn: "unknown"
+        },
+        33: {
+            prvid: "33",
+            pvnm: "CPXI",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "4",
+            mNet: !0,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsbidder"
+        },
+        56: {
+            prvid: "56",
+            pvnm: "MEDIAMATH",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "18",
+            mNet: !0,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsbidder"
+        },
+        23: {
+            prvid: "23",
+            pvnm: "APPNEXUS_PRIVATE",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "4",
+            mNet: !1,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsprivatebidder"
+        },
+        57: {
+            prvid: "57",
+            pvnm: "C1EXCHANGE",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "7",
+            mNet: !0,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsbidder"
+        },
+        59: {
+            prvid: "59",
+            pvnm: "CONVERSANT",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "8",
+            mNet: !0,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsbidder"
+        },
+        28: {
+            prvid: "28",
+            pvnm: "PULSEPOINT",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "22",
+            mNet: !0,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsbidder"
+        },
+        4: {
+            prvid: "4",
+            pvnm: "YBNCA-AUTO",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "31",
+            mNet: !0,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsbidder"
+        },
+        10000: {
+            prvid: "10000",
+            pvnm: "YBNCA",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "31",
+            mNet: !0,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsbidder"
+        },
+        9: {
+            prvid: "9",
+            pvnm: "YBNCA",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "31",
+            mNet: !0,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsbidder"
+        },
+        40: {
+            prvid: "40",
+            pvnm: "FACEBOOK",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "12",
+            mNet: !1,
+            clientSide: !0,
+            adv_dn: "unknown",
+            bidder: "facebookv2bidder"
+        },
+        51: {
+            prvid: "51",
+            pvnm: "DISTRICTM_DIRECT",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "4",
+            mNet: !0,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsbidder"
+        },
+        64: {
+            prvid: "64",
+            pvnm: "YOUSLAND",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "32",
+            mNet: !0,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsbidder"
+        },
+        43: {
+            prvid: "43",
+            pvnm: "OPENXS2S",
+            price_macro: "${AUCTION_PRICE}",
+            eid: "20",
+            mNet: !0,
+            clientSide: !1,
+            adv_dn: "unknown",
+            bidder: "rtbsbidder"
+        }
+    },
+    timeout: {ngfd: 500, grd: 300, gptrd: 100, bidTTL: {56: 0.5}},
+    info: {cid: "8CUX956JU", apsid: "7460", targetHV: 15},
+    misc: {dcto: 0, adlogSt: 0, grc: 1, rvc: 1, ogf: 1, lac: 0},
+    features: {fcsync: 1, inf: 1},
+    hbInfo: {hdhome: "", version: "0"},
+    targetingKeys: {
+        23: {
+            name: "appnexusprivatebidder",
+            bid: "mnet_abd",
+            epc: "mnet_apc",
+            size: "mnet_asz",
+            ltime: "mnet_alt",
+            dealType: "mnet_aat",
+            dealId: "mnet_adi",
+            test: "mnetAtest"
+        }
+    },
+    defaultBidderSetting: {
+        openxbidder: {
+            jstag_url: "https:\/\/medianet-d.openx.net\/w\/1.0\/jstag?oxns=mNHB",
+            oxLogUrl: "https:\/\/medianet-d.openx.net\/w\/1.0\/ri?ee=mul&"
+        },
+        facebookv2bidder: {bidApiUrl: "https:\/\/an.facebook.com\/v2\/placementbid.json"},
+        bidApiUrl: "https:\/\/contextual.media.net\/rtbsapub.php",
+        bidApiUrl2: "https:\/\/xch-global.media.net\/rtbs\/rtbsapub"
+    },
+    logUrls: {
+        pr: "logid=prlog",
+        ap: "logid=aplog",
+        ad: "logid=adlog",
+        prf: "logid=prflog",
+        aw: "logid=awlog",
+        gptr: "logid=gptrlog",
+        cslog: "logid=kfk&evtid=cslog",
+        amzlog: "logid=kfk&evtid=amzlog",
+        gpts: "logid=kfk&evtid=gptslog",
+        agpts: "logid=kfk&evtid=agptslog",
+        errorBid: "logid=kfk&evtid=errorBidLog",
+        tpUrl: "logid=kfk&evtid=rtbstl",
+        sw: "logid=kfk&evtid=slotlog",
+        exp: "logid=kfk&evtid=explog",
+        idl: "logid=kfk&evtid=initlog",
+        av: "logid=kfk&evtid=avlog",
+        ar: "logid=kfk&evtid=arlog",
+        el: "logid=kfk&evtid=belog",
+        get: "https:\/\/qsearch-a.akamaihd.net\/log",
+        post: "https:\/\/lg1.media.net\/log"
+    },
+    _mNVsid: "1429266390372048000V10",
+    _optout: "",
+    _dataCk: "||||||||||||||||",
+    _apnCk: "0",
+    viewid: "1503489069",
+    _mNVisitIdData: "115.114.59.182",
+    _ip2c: "US",
+    _ip2z: "e",
+    cok: {fb: ""}
+};
+

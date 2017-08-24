@@ -19,14 +19,15 @@ moduleManager.addModule("Core",function(AuctionManager,SlotAuction,AdapterManage
 
         winnersDetail=auctionManager.returnWinners();
         var adIDs=Object.keys(winnersDetail);
-        console.log(adIDs);
+       // console.log(adIDs);
         for(var i=0;i<adIDs.length;i++)
         {
 
             var destination=window.document.getElementById(adIDs[i]);
-            console.log(destination);
-            console.log(winnersDetail[adIDs[i]]);
+          //  console.log(destination);
+            console.log(winnersDetail[adIDs[i]].adCode);
             destination.src=winnersDetail[adIDs[i]].adCode;
+            console.log(destination.src);
            // destination.contentWindow.document.getElementsByTagName("body")[0].appendChild(winnersDetail[i].url);
 
         }

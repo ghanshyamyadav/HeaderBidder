@@ -8,15 +8,16 @@ moduleManager.addModule("AuctionManager",function (SlotAuction){
     function registerAuctions(configParameter) {
 
         config=configParameter;
-        for(var i=0;i<config.adSlots.length;i++){
+        var adSlots=Object.keys(config.adSlots);
+        for(var i=0;i<adSlots.length;i++){
 
-            if(config.adSlots[i].adID in slotAuctions)
+            if(config.adSlots[adSlots[i]].adID in slotAuctions)
             {
                 continue;
 
             }
-            slotAuctions[config.adSlots[i].adID]=SlotAuction();
-            slotAuctions[config.adSlots[i].adID].registerAuction(config.adSlots[i].adID);
+            slotAuctions[adSlots[i]]=SlotAuction();
+            slotAuctions[adSlots[i]].registerAuction(adSlots[i]);
 
 
         }
