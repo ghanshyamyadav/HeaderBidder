@@ -6,36 +6,44 @@ moduleManager.addModule("Adapter",["AuctionManager"],function(auctionManager){
 
 
         var requestData={};
-        adSlotIDs=Object.keys(config.providersMap);
-        console.log(adSlotIDs);
-        console.log('you');
-        var requestArray=[];
-        for(var i=0,size=adSlotIDs.length;i<size;i++){
+        try {
 
 
-            var providerIDs=Object.keys(config.providersMap[adSlotIDs[i]]);
-            for(var j=0,arraySize=providerIDs.length;j<arraySize;j++){
+            adSlotIDs = Object.keys(config.providersMap);
+            //console.log(adSlotIDs);
+            //console.log('you');
+            var requestArray = [];
+            for (var i = 0, size = adSlotIDs.length; i < size; i++) {
 
-                var requestObject={};
-                requestObject.adID=adSlotIDs[i];
-                requestObject.epc=config.providersMap[adSlotIDs[i]][providerIDs[j]].epc;
-                requestObject.entryPoint=config.providers[adSlotIDs[i]].entryPoint;
-                console.log(config.adSlots[adSlotIDs[i]]);
-                console.log((config.adSlots[adSlotIDs[i]]).size_height);
-                requestObject.size_height=(config.adSlots[adSlotIDs[i]]).size_height;
 
-                requestArray.push(requestObject);
+                var providerIDs = Object.keys(config.providersMap[adSlotIDs[i]]);
+                for (var j = 0, arraySize = providerIDs.length; j < arraySize; j++) {
+
+                    var requestObject = {};
+                    requestObject.adID = adSlotIDs[i];
+                    requestObject.epc = config.providersMap[adSlotIDs[i]][providerIDs[j]].epc;
+                    requestObject.entryPoint = config.providers[providerIDs[j]].entryPoint;
+                    requestObject.prID = config.providers[providerIDs[j]].id;
+                    //console.log(config.adSlots[adSlotIDs[i]]);
+                    //console.log((config.adSlots[adSlotIDs[i]]).size_height);
+                    requestObject.size_height = (config.adSlots[adSlotIDs[i]]).size_height;
+
+                    requestArray.push(requestObject);
+                }
+
+
             }
-
+            // console.log(requestArray);
+            requestData['config'] = requestArray;
+            requestData['callback'] = 'moduleManager.getModule("Adapter").handleResponse';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = "http://localhost:9666/getBids?config=" + JSON.stringify(requestData);
+            //scriptElement.textContent=auctionManager.addBids(bidsData);
+            document.head.appendChild(scriptElement);
+        }
+        catch(err){
 
         }
-        console.log(requestArray);
-        requestData['config']=requestArray;
-        requestData['callback']='moduleManager.getModule("Adapter").handleResponse';
-        var scriptElement=document.createElement('script');
-        scriptElement.src="http://localhost:9666/getBids?config="+JSON.stringify(requestData);
-        //scriptElement.textContent=auctionManager.addBids(bidsData);
-        document.head.appendChild(scriptElement);
 
 
     }
@@ -51,7 +59,10 @@ moduleManager.addModule("Adapter",["AuctionManager"],function(auctionManager){
                 bidsDetail[response[i].adID]=[];
 
             }
-            //response[i].
+            //console.log(config.providersMap[response[i].adID][response[i].prID].revShare);
+
+           // console.log(response[i].bid);
+            //response[i].bid=response[i].bid-(config.providersMap[response[i].adID][response[i].prID].revShare*response[i].bid);
             bidsDetail[response[i].adID].push(response[i]);
 
 

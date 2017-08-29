@@ -30,9 +30,17 @@ moduleManager.addModule("SlotAuction",[], function(){
 
             if (!isAuctionClosed) {
 
+                bidDetails.bid=parseInt(bidDetails.bid);
 
+                if(bidsDetail["NO BID"] || bidDetails.bid<config.providersMap[bidDetails.adID][bidDetails.prID].floorPrice)
+                {
+
+                    return;
+                }
+                bidDetails.bid=bidDetails.bid-(config.providersMap[bidDetails.adID][bidDetails.prID].revShare*bidDetails.bid);
                 bidsDetail.push(bidDetails);
-                //console.log(bidDetails);
+
+                console.log(bidDetails);
                 bidReceived++;
             }
 

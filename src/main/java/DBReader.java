@@ -3,7 +3,7 @@ import java.sql.*;
 import org.json.*;
 
 
-public class DBReader {
+public class  DBReader {
 
 
     private Statement statement;
