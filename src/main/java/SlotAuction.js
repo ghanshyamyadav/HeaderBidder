@@ -1,11 +1,12 @@
-moduleManager.addModule("SlotAuction",[], function(){
+moduleManager.addModule("SlotAuction",["BidsResponseLog","AuctionResponseLog"], function(bidsResponseLog,auctionResponseLog){
 
 
     return (function() {
         var isAuctionClosed = true;
         var _timer = 0;
         var adID;
-        var bidReceived = 0;
+        var bidsReceived = 0;
+        var bidsExpected;
         var bidsDetail = [];
         var winnerBidDetais = {};
 
@@ -13,7 +14,8 @@ moduleManager.addModule("SlotAuction",[], function(){
         function registerAuction(adid) {
 
             adID = adid;
-            setTimeout(closeAuction, 900);
+            bidsExpected=Object.keys(config.providersMap[adID]).length;
+            _timer=setTimeout(closeAuction, 900);
             isAuctionClosed = false;
 
         }
@@ -22,7 +24,9 @@ moduleManager.addModule("SlotAuction",[], function(){
         function closeAuction() {
 
             isAuctionClosed = true;
+            //bidsResponseLog.addLogToServer();
             performAuction();
+
 
         }
 
@@ -35,13 +39,26 @@ moduleManager.addModule("SlotAuction",[], function(){
                 if(bidsDetail["NO BID"] || bidDetails.bid<config.providersMap[bidDetails.adID][bidDetails.prID].floorPrice)
                 {
 
+
+                    bidsResponseLog.addAuctionNotParticipatedLog(bidDetails);
                     return;
                 }
                 bidDetails.bid=bidDetails.bid-(config.providersMap[bidDetails.adID][bidDetails.prID].revShare*bidDetails.bid);
                 bidsDetail.push(bidDetails);
 
                 console.log(bidDetails);
-                bidReceived++;
+                if(bidsExpected==(++bidsReceived)){
+
+                    clearTimeout(_timer);
+                    closeAuction();
+                }
+                bidsResponseLog.addAuctionParticipatedLog(bidDetails);
+
+            }
+            else {
+
+
+                bidsResponseLog.addAuctionNotParticipatedLog(bidDetails);
             }
 
 
@@ -62,6 +79,7 @@ moduleManager.addModule("SlotAuction",[], function(){
                 }
             }
             winnerBidDetais = maxBid;
+            auctionResponseLog.addAuctionWinnerLog(winnerBidDetais);
 
         }
 

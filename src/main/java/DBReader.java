@@ -101,5 +101,113 @@ public class  DBReader {
 
     }
 
+    public void addLogs(JSONObject logs){
+
+            try{
+
+            JSONArray logTypes=logs.names();
+            for(int i=0,size=logTypes.length();i<size;i++){
+
+                String logName=logTypes.getString(i);
+                System.out.println(logName);
+                System.out.println(size);
+                String query=new String();
+                switch (logName){
+
+                    case "bidsResponseLog":
+                        query=getQueryStringBidsResponseLog(logs.getJSONArray(logName));
+                        break;
+
+                    case "auctionResponseLog":
+                        query=getQueryStringAuctionResponseLog(logs.getJSONArray(logName));
+                        break;
+
+                    case "renderedAdLog":
+                        query=getQueryStringRenderedAdLog(logs.getJSONArray(logName));
+                        break;
+
+
+                }
+
+                System.out.println(query);
+                if(query!=" "){
+                    statement.executeUpdate(query);
+                }
+
+            }
+
+        }
+        catch (Exception e){
+            System.out.println(e);
+
+        }
+    }
+
+    private String getQueryStringBidsResponseLog(JSONArray jsonArray) throws Exception{
+
+        if(jsonArray.length()==0){
+            return " ";
+        }
+        String query="INSERT INTO bidsResponseLog (adID,prID,bid,noBid,timestamp,participatedFlag) VALUES";
+        for(int i=0,size=jsonArray.length();i<size;i++){
+
+            query+=" (";
+            JSONObject objectINArray=jsonArray.getJSONObject(i);
+            query+=objectINArray.getString("adID")+",";
+            query+=objectINArray.getString("prID")+",";
+            query+=objectINArray.getString("bid")+",";
+            query+=objectINArray.getString("NO BID")+",";
+            query+=objectINArray.getString("timeStamp")+",";
+            query+=objectINArray.getString("participated");
+
+            query+="),";
+        }
+        query=query.substring(0,query.length() - 1);
+        return query;
+    }
+
+    private String getQueryStringAuctionResponseLog(JSONArray jsonArray) throws Exception{
+
+        if(jsonArray.length()==0){
+            return " ";
+        }
+        String query="INSERT INTO auctionResponseLog (adID,prID,bid,timestamp,winnerFlag) VALUES";
+        for(int i=0,size=jsonArray.length();i<size;i++){
+
+            query+=" (";
+            JSONObject objectINArray=jsonArray.getJSONObject(i);
+            query+=objectINArray.getString("adID")+",";
+            query+=objectINArray.getString("prID")+",";
+            query+=objectINArray.getString("bid")+",";
+            query+=objectINArray.getString("timeStamp")+",";
+            query+=objectINArray.getString("winnerFlag");
+
+            query+="),";
+        }
+        query=query.substring(0,query.length() - 1);
+        return query;
+    }
+
+    private String getQueryStringRenderedAdLog(JSONArray jsonArray) throws Exception{
+
+        if(jsonArray.length()==0){
+            return " ";
+        }
+        String query="INSERT INTO renderedADLog (adID,prID,bid,timestamp) VALUES";
+        for(int i=0,size=jsonArray.length();i<size;i++){
+
+            query+=" (";
+            JSONObject objectINArray=jsonArray.getJSONObject(i);
+            query+=objectINArray.getString("adID")+",";
+            query+=objectINArray.getString("prID")+",";
+            query+=objectINArray.getString("bid")+",";
+            query+=objectINArray.getString("timeStamp");
+
+            query+="),";
+
+        }
+        query=query.substring(0,query.length() - 1);
+        return query;
+    }
 
 }

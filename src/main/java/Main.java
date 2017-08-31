@@ -34,6 +34,14 @@ public class Main {
 
            return "var config="+config+";"
                    +FileReader((absolutePath+"ModuleManager.js"))
+                   +FileReader((absolutePath+"LogModule.js"))
+
+
+
+                   +FileReader((absolutePath+"BidsResponseLog.js"))
+                   +FileReader((absolutePath+"AuctionResponseLog.js"))
+                   +FileReader((absolutePath+"RenderedAdLog.js"))
+                   +FileReader((absolutePath+"LogManager.js"))
                    +FileReader((absolutePath+"SlotAuction.js"))
                    +FileReader((absolutePath+"AuctionManager.js"))
                    +FileReader((absolutePath+"Adapter.js"))
@@ -47,6 +55,13 @@ public class Main {
 
 
 
+       });
+
+       get("/addLogs",(req,res)->{
+
+
+           dbReader.addLogs(new JSONObject(req.queryParams("log")));
+           return 0;
        });
     }
 

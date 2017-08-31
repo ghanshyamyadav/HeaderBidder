@@ -1,4 +1,4 @@
-moduleManager.addModule("Core",["AuctionManager","SlotAuction","AdapterManager","Adapter"],function(auctionManager,slotAuction,adapterManager,adapter){
+moduleManager.addModule("Core",["AuctionManager","SlotAuction","AdapterManager","Adapter","LogManager","RenderedAdLog"],function(auctionManager,slotAuction,adapterManager,adapter,logManager,renderedAdLog){
 
 
 
@@ -12,6 +12,7 @@ moduleManager.addModule("Core",["AuctionManager","SlotAuction","AdapterManager",
 
 
         setTimeout(displayAds,1000,auctionManager);
+        setTimeout(logManager.addLogToServer,2000);
 
 
     }
@@ -29,6 +30,7 @@ moduleManager.addModule("Core",["AuctionManager","SlotAuction","AdapterManager",
             console.log(winnersDetail[adIDs[i]].adCode);
             destination.src=winnersDetail[adIDs[i]].adCode;
             console.log(destination.src);
+            renderedAdLog.addRenderedAdLog(winnersDetail[adIDs[i]]);
            // destination.contentWindow.document.getElementsByTagName("body")[0].appendChild(winnersDetail[i].url);
 
         }
