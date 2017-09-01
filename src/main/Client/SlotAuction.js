@@ -15,7 +15,7 @@ moduleManager.addModule("SlotAuction",["BidsResponseLog","AuctionResponseLog"], 
 
             adID = adid;
             bidsExpected=Object.keys(config.providersMap[adID]).length;
-            _timer=setTimeout(closeAuction, 900);
+            _timer=setTimeout(closeAuction, 1000);
             isAuctionClosed = false;
 
         }

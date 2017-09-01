@@ -1,0 +1,12 @@
+.jumbotron {
+    background-color: #663399; /* Orange */
+    color: #ffffff;
+}
+
+#providers{
+     display:none;
+ }
+
+#publisher{
+    display:none;
+}

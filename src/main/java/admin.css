@@ -1,0 +1,24 @@
+.jumbotron {
+    background-color: #663399; /* Orange */
+    color: #ffffff;
+}
+
+#providers{
+     display:none;
+ }
+
+#publisher{
+    display:none;
+}
+
+.updateInput{
+    display:none;
+}
+
+/*<p>Do you want to change the database?</p>
+    <p>Well, here we allow you to add/delete publishers who can use your header bidder services!</p>
+    <p> Also we allow you to manage your providers, control the revShare and various other services.</p>
+    <p>Browse the menu bar now :P</p>
+
+    <p> One more thing. You must be thinking "why is the search box provided?"</p>
+    <p> Well as of now it does nothing :P</p>*/

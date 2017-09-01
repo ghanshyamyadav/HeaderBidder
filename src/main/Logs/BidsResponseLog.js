@@ -24,6 +24,12 @@ moduleManager.addModule("BidsResponseLog",["LogModule"],function func(logModule)
 
     }
 
+    function  addLog(bidsDetail){
+
+        var log=createLogObject(bidDetails);
+        logs.push(log);
+    }
+
     function createLogObject(bidDetails){
 
         var log={};
@@ -45,7 +51,8 @@ moduleManager.addModule("BidsResponseLog",["LogModule"],function func(logModule)
 
         addAuctionNotParticipatedLog:addAuctionNotParticipatedLog,
         addAuctionParticipatedLog:addAuctionParticipatedLog,
-        getLogs:getLogs
+        getLogs:getLogs,
+        addLog:addLog
 
     }
 

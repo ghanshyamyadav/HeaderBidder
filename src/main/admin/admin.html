@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>admin</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="admin.css">
+    <script src="http://localhost:5666/adminJS"></script>
+
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#" id="adminHome">Admin</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+        <li class="active"><a href="#"></a> </li>
+        <li class="dropdown">
+            <a class=dropdown-toggle" data-toggle="dropdown" href="#">Publishers
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#" id="addPublishers">Add Publishers</a></li>
+                <li><a href="#" id="showPublishers">Show Publishers</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a class=dropdown-toggle" data-toggle="dropdown" href="#">Providers
+                <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#" id="addProviders">Add Providers</a></li>
+                <li><a href="#" id="showProviders">Show Providers</a></li>
+            </ul>
+        </li>
+
+    </ul>
+        <form class="navbar-form navbar-left">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+</nav>
+<p></p>
+<p></p>
+<div id="parent">
+<div id="home">
+<div class="jumbotron text-center">
+    <h1>Admin</h1>
+
+</div>
+
+<div class="container-fluid text-center bg-grey">
+    <h2>Portfolio</h2>
+    <h4>What we have created</h4>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="hb3.jpg" alt="Paris">
+                <p><strong></strong></p>
+                <p></p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="hb2.jpg" alt="New York">
+                <p><strong></strong></p>
+                <p></p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="hb1.png" alt="San Francisco">
+                <p><strong></strong></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+<div id="publishers">
+
+    <table class="table table-striped" >
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>isActive</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+
+
+        </tbody>
+    </table>
+    <div id="publishersModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Update Publisher</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <span class="publisherID"></span>
+                        <div class="form-group">
+                            <label >Name:</label>
+                            <input type="name" class="form-control publisherName" value="1" >
+                        </div>
+                        <div class="form-group">
+                            <label >Email:</label>
+                            <input type="text" class="form-control publisherEmail">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value=1  class="publisherIsActive"> isActive</label>
+                        </div>
+                        <button type="submit" class="btn btn-default" data-dismiss="modal">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="providers" >
+    <table class="table table-striped" >
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>entryPoint</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <div id="providersModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Update Publisher</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label >Name:</label>
+                            <input type="name" class="form-control providerName" >
+                        </div>
+                        <div class="form-group">
+                            <label >Email:</label>
+                            <input type="text" class="form-control providerEmail">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="text"   class="providerEntryPoint"> entryPoint</label>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <div id="providersMap" >
+        <table class="table table-striped" >
+            <thead>
+            <tr>
+                <th>adID</th>
+                <th>prID</th>
+                <th>revShare</th>
+                <th>epc</th>
+                <th>floorPrice</th>
+                <th>id</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <div id="providersMapModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Update Providers Map</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label >Name:</label>
+                                <input type="name" class="form-control" class="providerName" >
+                            </div>
+                            <div class="form-group">
+                                <label >Email:</label>
+                                <input type="text" class="form-control" class="providerEmail">
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="text"   class="providerEntryPoint"> entryPoint</label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="adSlots" >
+        <table class="table table-striped" >
+            <thead>
+            <tr>
+                <th>adID</th>
+                <th>publisherID</th>
+                <th>size_height</th>
+                <th>size_width</th>
+                <th>name</th>
+                <th>divID</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div id="newPublisher">
+
+        <form>
+            <div class="form-group">
+                <label >Name:</label>
+                <input type="name" class="form-control publisherName" >
+            </div>
+            <div class="form-group">
+                <label >Email:</label>
+                <input type="password" class="form-control" class="publisherEmail">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value=1  class="publisherIsActive"> isActive</label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+
+
+
+
+
+
+    <div id="newProvider">
+
+        <form >
+            <div class="form-group">
+                <label >Name:</label>
+                <input type="name" class="form-control" class="providerName">
+            </div>
+
+            <div class="form-group">
+                <label >EntryPoint:</label>
+                <input type="text" class="form-control" class="providerEntryPoint">
+            </div>
+
+            <button type="submit" class="btn btn-default" >Submit</button>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="updateProvider">
+
+        <form class="form-inline">
+            <div class="form-group">
+                <label >Name:</label>
+                <input type="name" class="form-control" class="providerName">
+            </div>
+
+            <div class="form-group">
+                <label >EntryPoint:</label>
+                <input type="text" class="form-control" class="providerEntryPoint">
+            </div>
+
+            <button type="submit" class="btn btn-default" >Submit</button>
+        </form>
+    </div>
+
+
+
+
+
+</div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-moduleManager.addModule("Adapter",["AuctionManager"],function(auctionManager){
+moduleManager.addModule("Adapter",["AuctionManager","BidsResponseLog"],function(auctionManager,bidsResponseLog){
 
     var adSlotIDs;
     function getBids()

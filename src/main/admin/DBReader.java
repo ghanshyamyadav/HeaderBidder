@@ -218,7 +218,6 @@ public class  DBReader {
         return response;
     }
 
-
     public String getAllProviders() throws Exception{
 
         String query="select * from Providers";
@@ -235,107 +234,29 @@ public class  DBReader {
         return response;
     }
 
-    public String getProvidersMap(int id) throws Exception{
-
-        String query="select * from providersMap where adID="+id;
-        String response= getJson(statement.executeQuery(query)).toString();
-        System.out.println(response);
-        return response;
-    }
-
-    public String addAdSlot(JSONObject adSlot) throws Exception{
+    public void addAdSlot(JSONObject adSlot) throws Exception{
 
         String query="INSERT INTO adSlots (publisherID,size_height,size_width,name,divID) Values("+
-                adSlot.getInt("publisherID")+","
-                +adSlot.getInt("size_height")+","
-                +adSlot.getInt("size_width")+","
-                +adSlot.getString("name")+","
+                adSlot.getInt("publisherID")
+                +adSlot.getInt("size_height")
+                +adSlot.getInt("size_width")
+                +adSlot.getString("name")
                 +adSlot.getString("divID")+")";
 
         statement.executeUpdate(query);
-        return "";
 
     }
+    public void addNewProvider(JSONObject provider) throws Exception{
 
-    public String updateAdSlot(JSONObject adSlot) throws Exception{
-
-        String query="UPDATE adSlots set publisherID="+
-                adSlot.getInt("publisherID")+", size_height="
-                +adSlot.getInt("size_height")+", size_width="
-                +adSlot.getInt("size_width")+", name='"
-                +adSlot.getString("name")+"', divID='"
-                +adSlot.getString("divID")+"') where adID="
-                +adSlot.getString("adID");
-
-        statement.executeUpdate(query);
-        return "";
 
     }
-    public String addNewProvider(JSONObject provider) throws Exception{
-        String query="INSERT INTO providers (name,entryPoint) Values('"
+    public void addNewPublisher(JSONObject publisher) throws Exception{
 
-                +provider.getString("name")+"','"
-                +provider.getString("entryPoint")+"')";
-
-        statement.executeUpdate(query);
-        return "";
 
     }
-    public String updateProvider(JSONObject provider) throws Exception{
-        String query="UPDATE providers set name='"
+    public void addProvidersMap(JSONObject providersMap) throws Exception{
 
-                +provider.getString("name")+"',entryPoint='"
-                +provider.getString("entryPoint")+"' where id="
-                +provider.getString("id");
 
-        statement.executeUpdate(query);
-        return "";
-
-    }
-
-    public String addNewPublisher(JSONObject publisher) throws Exception{
-        String query="INSERT INTO publishers (name,isActive) Values('"
-
-                +publisher.getString("name").toString()+"',"
-                +publisher.getString("isActive")+")";
-        System.out.println(query);
-        statement.executeUpdate(query);
-        return "";
-    }
-    public String updatePublisher(JSONObject publisher) throws Exception{
-        String query="UPDATE publishers set name='"
-
-                +publisher.getString("name").toString()+"', isActive="
-                +publisher.getString("isActive")+" where id="
-                +publisher.getString("id");
-        System.out.println(query);
-        statement.executeUpdate(query);
-        return "";
-    }
-
-    public String addProvidersMap(JSONObject providersMap) throws Exception{
-        String query="INSERT INTO providersMap (adID,prID,revShare,epc,floorPrice) Values("
-                +providersMap.getInt("adID")+","
-                +providersMap.getInt("prID")+","
-                +providersMap.getInt("revShare")+","
-                +providersMap.getString("epc")+","
-                +providersMap.getInt("floorPrice")+")";
-
-        statement.executeUpdate(query);
-        return "";
-    }
-
-    public String updateProvidersMap(JSONObject providersMap) throws Exception{
-        String query="UPDATE providersMap set prID="
-
-                +providersMap.getInt("prID")+",revShare="
-                +providersMap.getInt("revShare")+",epc="
-                +providersMap.getString("epc")+",floorPrice="
-                +providersMap.getInt("floorPrice")+" where adID="
-                +providersMap.getInt("adID");
-
-        statement.executeUpdate(query);
-        return "";
     }
 
 
