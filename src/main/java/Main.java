@@ -90,7 +90,7 @@ public class Main {
        });
 
         get("/updateAdSlot",(req,res)->{
-            //System.out.println(req.queryParams("adSlots"));
+            System.out.println(req.queryParams("adSlots"));
             return req.queryParams("callback").toString()+"("+dbReader.updateAdSlot(new JSONObject(req.queryParams("adSlots")))+")";
         });
 

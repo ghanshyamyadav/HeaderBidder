@@ -51,7 +51,7 @@ $("#publishersModal .modal-body .btn").click(function (e) {
     scriptElement.src = "http://localhost:5666/updatePublisher?callback=done&publisher="+JSON.stringify(publisher);
     document.head.appendChild(scriptElement);
 
-})
+});
 
 
 });
@@ -86,12 +86,13 @@ window.displayPublishers=function(response) {
             '<td><strong>' + response[f]['id']+'</strong></td>' +
             '<td><input value="" class="updateInput">'+response[f]['name'] +'</td>' +
             '<td><input value="" class="updateInput">'+response[f]['isActive']+'</td>' +
+            '<td>'+response[f]['divID']+'</td>' +
             '<td><a href="#" class="publishersList">Show adSlots</a></td>' +
             '<td><a href="#" class="editValues" data-toggle="modal" data-target="#publishersModal">edit</a></td>' +
             '</tr>';
     }
     console.log(response);
-    $('#publishers .table tbody').replaceWith(trHTML);
+    $('#publishers .table tbody').html(trHTML);
     $(".updateInput").css("display","none");
 
 

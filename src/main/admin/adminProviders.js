@@ -20,6 +20,26 @@ $(document).ready(function() {
 
     });
 
+    $("#providers").on("click",".editValues",(function (e) {
+
+        //console.log($(this).parents("tr").find(".updateInput"));
+        $("#providersModal .providerID ").text($(this).parents("tr").find("td:first").text());
+        $("#providersModal .providerName").attr('value',($(this).parents("tr").find('td:nth-child(2)').text()));
+        $("#providersModal .providerEntryPoint").attr('value',($(this).parents("tr").find('td:nth-child(3)').text()));
+
+
+    }));
+    $("#providersModal .modal-body .btn").click(function (e) {
+
+        var provider={'name':$("#providersModal .providerName").val().toString(),'entryPoint':($("#providersModal .providerEntryPoint").val().toString()),'id':($("#providersModal .providerID").text())};
+
+
+        var scriptElement = document.createElement('script');
+        scriptElement.src = "http://localhost:5666/updateProvider?callback=done&provider="+JSON.stringify(provider);
+        document.head.appendChild(scriptElement);
+
+    })
+
 });
     function getProviders(){
 
@@ -50,9 +70,9 @@ window.displayProviders=function(response){
             '<td>'+response[f]['name'] +'</span></td>' +
             '<td>'+response[f]['entryPoint']+'</td>' +
             //'<td><a href="#" class="providersList">S</a></td>' +
-            '<td><a href="#" class="editValues" data-toggle="modal" data-target="#providerModal">edit</a></td>' +
+            '<td><a href="#" class="editValues" data-toggle="modal" data-target="#providersModal">edit</a></td>' +
             '</tr>';
     }
     console.log(response);
-    $('#providers .table tbody').replaceWith(trHTML);
+    $('#providers .table tbody').html(trHTML);
 }

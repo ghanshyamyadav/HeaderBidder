@@ -7,7 +7,7 @@ $(document).ready(function() {
         //$("#home").hide();
         $("#home").show().siblings("div").hide();
     });
-
+    $("#home").show().siblings("div").hide();
 
 
 

@@ -2,20 +2,27 @@ moduleManager.addModule("AuctionResponseLog",["LogModule"],function (logModule) 
 
 
     var logs=[];
-    this.__proto__=logModule;
 
-    function addAuctionLoserLog(bidDetails) {
+    function addAuctionTimeoutFlag(bidDetails) {
+        var log=createLogObject(bidDetails);
+        log.statusFlag=1;
+        logs.push(log);
+    }
+
+    function addAuctionParticipatedLog(bidDetails) {
+
 
         var log=createLogObject(bidDetails);
-        log.winnerFlag=false;
+        log.statusFlag=2;
         logs.push(log);
+
 
     }
 
     function addAuctionWinnerLog(bidDetails) {
 
         var log=createLogObject(bidDetails);
-        log.winnerFlag=true;
+        log.statusFlag=3;
         logs.push(log);
 
 
@@ -38,7 +45,8 @@ moduleManager.addModule("AuctionResponseLog",["LogModule"],function (logModule) 
 
     return{
 
-        addAuctionLoserLog:addAuctionLoserLog,
+        addAuctionTimeoutLog:addAuctionTimeoutFlag,
+        addAuctionParticipatedLog:addAuctionParticipatedLog,
         addAuctionWinnerLog:addAuctionWinnerLog,
         getLogs:getLogs
 

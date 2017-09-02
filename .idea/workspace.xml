@@ -2,34 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36fb7278-b60f-4aa6-8bcf-8371ac3dcc5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/admin/DBReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/admin/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/admin/admin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/admin/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/admin/adminAdSlots.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/admin/adminProviders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/admin/adminProvidersMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/admin/adminPublishers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/admin/publishers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/admin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Adapter.js" afterPath="$PROJECT_DIR$/src/main/Client/Adapter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/AdapterManager.js" afterPath="$PROJECT_DIR$/src/main/Client/AdapterManager.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/AuctionManager.js" afterPath="$PROJECT_DIR$/src/main/Client/AuctionManager.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/AuctionResponseLog.js" afterPath="$PROJECT_DIR$/src/main/Logs/AuctionResponseLog.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BidsResponseLog.js" afterPath="$PROJECT_DIR$/src/main/Logs/BidsResponseLog.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LogManager.js" afterPath="$PROJECT_DIR$/src/main/Logs/LogManager.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LogModule.js" afterPath="$PROJECT_DIR$/src/main/Logs/LogModule.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ModuleManager.js" afterPath="$PROJECT_DIR$/src/main/Client/ModuleManager.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/RenderedAdLog.js" afterPath="$PROJECT_DIR$/src/main/Logs/RenderedAdLog.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/SlotAuction.js" afterPath="$PROJECT_DIR$/src/main/Client/SlotAuction.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/config" afterPath="$PROJECT_DIR$/src/main/Client/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/core.js" afterPath="$PROJECT_DIR$/src/main/Client/core.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/publisher.css" afterPath="$PROJECT_DIR$/src/main/Client/publisher.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/publisher.html" afterPath="$PROJECT_DIR$/src/main/Client/publisher.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DBReader.class" afterPath="$PROJECT_DIR$/target/classes/DBReader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Client/Adapter.js" afterPath="$PROJECT_DIR$/src/main/Client/Adapter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Client/SlotAuction.js" afterPath="$PROJECT_DIR$/src/main/Client/SlotAuction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Client/config" afterPath="$PROJECT_DIR$/src/main/Client/config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Client/core.js" afterPath="$PROJECT_DIR$/src/main/Client/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Logs/AuctionResponseLog.js" afterPath="$PROJECT_DIR$/src/main/Logs/AuctionResponseLog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Logs/BidsResponseLog.js" afterPath="$PROJECT_DIR$/src/main/Logs/BidsResponseLog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/admin/admin.html" afterPath="$PROJECT_DIR$/src/main/admin/admin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/admin/admin.js" afterPath="$PROJECT_DIR$/src/main/admin/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/admin/adminAdSlots.js" afterPath="$PROJECT_DIR$/src/main/admin/adminAdSlots.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/admin/adminProviders.js" afterPath="$PROJECT_DIR$/src/main/admin/adminProviders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/admin/adminProvidersMap.js" afterPath="$PROJECT_DIR$/src/main/admin/adminProvidersMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/admin/adminPublishers.js" afterPath="$PROJECT_DIR$/src/main/admin/adminPublishers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DBReader.java" afterPath="$PROJECT_DIR$/src/main/java/DBReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
     </list>
@@ -41,30 +28,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="admin.html" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/admin/admin.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="890">
-                    <caret line="132" column="90" lean-forward="false" selection-start-line="132" selection-start-column="90" selection-end-line="132" selection-end-column="90" />
-                    <folding>
-                      <element signature="e#3332#3339#1" expanded="true" />
-                      <element signature="e#5143#5150#1" expanded="true" />
-                      <element signature="e#7006#7013#1" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="HeaderBidder" />
   </component>
@@ -73,68 +36,78 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="119" column="94" lean-forward="false" selection-start-line="119" selection-start-column="94" selection-end-line="119" selection-end-column="94" />
+            <state relative-caret-position="1204">
+              <caret line="103" column="15" lean-forward="false" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/admin.css">
+      <file leaf-file-name="SlotAuction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Client/SlotAuction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="-493">
+              <caret line="44" column="124" lean-forward="false" selection-start-line="44" selection-start-column="124" selection-end-line="44" selection-end-column="124" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/admin/admin.js">
+      <file leaf-file-name="LogManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Logs/LogManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="403">
+              <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminPublishers.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/admin/adminPublishers.js">
+      <file leaf-file-name="Adapter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Client/Adapter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="36" column="92" lean-forward="true" selection-start-line="36" selection-start-column="92" selection-end-line="36" selection-end-column="92" />
+            <state relative-caret-position="156">
+              <caret line="62" column="73" lean-forward="true" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminProviders.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/admin/adminProviders.js">
+      <file leaf-file-name="BidsResponseLog.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Logs/BidsResponseLog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="36" column="104" lean-forward="false" selection-start-line="36" selection-start-column="104" selection-end-line="36" selection-end-column="104" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminAdSlots.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/admin/adminAdSlots.js">
+      <file leaf-file-name="AuctionManager.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Client/AuctionManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminProvidersMap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/admin/adminProvidersMap.js">
+      <file leaf-file-name="RenderedAdLog.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Logs/RenderedAdLog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="86">
+              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Client/config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="1396" column="0" lean-forward="true" selection-start-line="1384" selection-start-column="0" selection-end-line="1396" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,38 +116,38 @@
       <file leaf-file-name="DBReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DBReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="267" column="39" lean-forward="false" selection-start-line="267" selection-start-column="39" selection-end-line="267" selection-end-column="39" />
+            <state relative-caret-position="238">
+              <caret line="159" column="55" lean-forward="false" selection-start-line="159" selection-start-column="55" selection-end-line="159" selection-end-column="55" />
               <folding>
-                <marker date="1504269880000" expanded="true" signature="7028:7052" ph="select * fro... Publishers" />
-                <marker date="1504269880000" expanded="true" signature="7279:7302" ph="select * fro... Providers" />
-                <marker date="1504269880000" expanded="true" signature="7529:7569" ph="select * fro... adSlots" />
-                <marker date="1504269880000" expanded="true" signature="7804:7842" ph="select * fro... providersMap" />
-                <marker date="1504269880000" expanded="true" signature="8082:8399" ph="INSERT INTO adSlots... " />
-                <marker date="1504269880000" expanded="true" signature="8561:8888" ph="UPDATE adSlo... " />
-                <marker date="1504269880000" expanded="true" signature="8567:8876" ph="INSERT INTO adSlots... " />
-                <marker date="1504269880000" expanded="true" signature="9094:9248" ph="INSERT INTO adSlots... " />
-                <marker date="1504269880000" expanded="true" signature="9412:9565" ph="UPDATE provi... " />
-                <marker date="1504269880000" expanded="true" signature="9418:9555" ph="INSERT INTO providers... " />
-                <marker date="1504269880000" expanded="true" signature="9774:9820" ph="INSERT INTO publishers... " />
-                <marker date="1504269880000" expanded="true" signature="9774:9840" ph="INSERT INTO publishers... " />
-                <marker date="1504269880000" expanded="true" signature="9774:9861" ph="INSERT INTO publishers... " />
-                <marker date="1504269880000" expanded="true" signature="9774:9936" ph="INSERT INTO adSlots... " />
-                <marker date="1504269880000" expanded="true" signature="10135:10297" ph="UPDATE publi... " />
-                <marker date="1504269880000" expanded="true" signature="10543:10611" ph="INSERT INTO adSlots... " />
-                <marker date="1504269880000" expanded="true" signature="10543:10831" ph="INSERT INTO adSlots... " />
-                <marker date="1504269880000" expanded="true" signature="10543:10868" ph="INSERT INTO adSlots... " />
-                <marker date="1504269880000" expanded="true" signature="11040:11313" ph="UPDATE provi... " />
+                <marker date="1504381826000" expanded="true" signature="6948:6972" ph="select * fro... Publishers" />
+                <marker date="1504381826000" expanded="true" signature="7199:7222" ph="select * fro... Providers" />
+                <marker date="1504381826000" expanded="true" signature="7449:7489" ph="select * fro... adSlots" />
+                <marker date="1504381826000" expanded="true" signature="7724:7762" ph="select * fro... providersMap" />
+                <marker date="1504381826000" expanded="true" signature="8002:8319" ph="INSERT INTO adSlots... " />
+                <marker date="1504381826000" expanded="true" signature="8537:8801" ph="UPDATE adSlo... " />
+                <marker date="1504381826000" expanded="true" signature="8543:8789" ph="INSERT INTO adSlots... " />
+                <marker date="1504381826000" expanded="true" signature="9045:9199" ph="INSERT INTO adSlots... " />
+                <marker date="1504381826000" expanded="true" signature="9363:9516" ph="UPDATE provi... " />
+                <marker date="1504381826000" expanded="true" signature="9369:9506" ph="INSERT INTO providers... " />
+                <marker date="1504381826000" expanded="true" signature="9725:9771" ph="INSERT INTO publishers... " />
+                <marker date="1504381826000" expanded="true" signature="9725:9791" ph="INSERT INTO publishers... " />
+                <marker date="1504381826000" expanded="true" signature="9725:9812" ph="INSERT INTO publishers... " />
+                <marker date="1504381826000" expanded="true" signature="9725:9887" ph="INSERT INTO adSlots... " />
+                <marker date="1504381826000" expanded="true" signature="10086:10248" ph="UPDATE publi... " />
+                <marker date="1504381826000" expanded="true" signature="10494:10562" ph="INSERT INTO adSlots... " />
+                <marker date="1504381826000" expanded="true" signature="10494:10782" ph="INSERT INTO adSlots... " />
+                <marker date="1504381826000" expanded="true" signature="10494:10819" ph="INSERT INTO adSlots... " />
+                <marker date="1504381826000" expanded="true" signature="10991:11207" ph="UPDATE provi... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Adapter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Client/Adapter.js">
+      <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Client/core.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+            <state relative-caret-position="744">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,7 +169,6 @@
       <find>bidsRe</find>
       <find>insert in</find>
       <find>responselog</find>
-      <find>inser</find>
       <find>inse</find>
       <find>auction</find>
       <find>insert into re</find>
@@ -208,9 +180,12 @@
       <find>find</find>
       <find>publisherName</find>
       <find>publisherN</find>
-      <find>providerN</find>
       <find>providerNam</find>
+      <find>providerN</find>
+      <find>publ</find>
+      <find>update</find>
       <find>parse</find>
+      <find>inser</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -239,22 +214,24 @@
         <option value="$PROJECT_DIR$/src/main/java/AuctionResponseLog.js" />
         <option value="$PROJECT_DIR$/src/main/java/SlotAuction.js" />
         <option value="$PROJECT_DIR$/src/main/java/core.js" />
-        <option value="$PROJECT_DIR$/src/main/Logs/BidsResponseLog.js" />
-        <option value="$PROJECT_DIR$/src/main/Client/Adapter.js" />
-        <option value="$PROJECT_DIR$/src/main/Client/SlotAuction.js" />
-        <option value="$PROJECT_DIR$/src/main/Client/core.js" />
         <option value="$PROJECT_DIR$/src/main/admin/publishers.html" />
         <option value="$PROJECT_DIR$/src/main/admin/admin.css" />
         <option value="$PROJECT_DIR$/src/main/admin/DBReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/admin.css" />
-        <option value="$PROJECT_DIR$/src/main/admin/admin.js" />
-        <option value="$PROJECT_DIR$/src/main/admin/adminProvidersMap.js" />
-        <option value="$PROJECT_DIR$/src/main/admin/adminAdSlots.js" />
         <option value="$PROJECT_DIR$/src/main/admin/adminProviders.js" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DBReader.java" />
-        <option value="$PROJECT_DIR$/src/main/admin/admin.html" />
         <option value="$PROJECT_DIR$/src/main/admin/adminPublishers.js" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/admin/adminAdSlots.js" />
+        <option value="$PROJECT_DIR$/src/main/admin/adminProvidersMap.js" />
+        <option value="$PROJECT_DIR$/src/main/admin/admin.html" />
+        <option value="$PROJECT_DIR$/src/main/admin/admin.js" />
+        <option value="$PROJECT_DIR$/src/main/Client/config" />
+        <option value="$PROJECT_DIR$/src/main/Client/core.js" />
+        <option value="$PROJECT_DIR$/src/main/Logs/AuctionResponseLog.js" />
+        <option value="$PROJECT_DIR$/src/main/Client/Adapter.js" />
+        <option value="$PROJECT_DIR$/src/main/Logs/BidsResponseLog.js" />
+        <option value="$PROJECT_DIR$/src/main/java/DBReader.java" />
+        <option value="$PROJECT_DIR$/src/main/Client/SlotAuction.js" />
       </list>
     </option>
   </component>
@@ -271,10 +248,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1680" />
-    <option name="y" value="-390" />
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -292,10 +267,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,6 +320,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JavaScript Debug.publisher.html">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -474,9 +449,15 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="publisher.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HeaderBidder/src/main/Client/publisher.html" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.publisher.html" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.publisher.html" />
       </list>
     </recent_temporary>
   </component>
@@ -496,15 +477,16 @@
       <workItem from="1503557653971" duration="21281000" />
       <workItem from="1503902733294" duration="9385000" />
       <workItem from="1503992711492" duration="14321000" />
-      <workItem from="1504165378759" duration="52708000" />
+      <workItem from="1504165378759" duration="60793000" />
+      <workItem from="1504339140862" duration="5793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165558000" />
+    <option name="totallyTimeSpent" value="179436000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="-390" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -515,12 +497,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3796635" sideWeight="0.5154885" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3796635" sideWeight="0.48451152" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.531218" sideWeight="0.48451152" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28749084" sideWeight="0.4912629" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.083796665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13003664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -591,25 +573,25 @@
         <state relative-caret-position="637">
           <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding>
-            <marker date="1504269880000" expanded="true" signature="7028:7052" ph="select * fro... Publishers" />
-            <marker date="1504269880000" expanded="true" signature="7279:7302" ph="select * fro... Providers" />
-            <marker date="1504269880000" expanded="true" signature="7529:7569" ph="select * fro... adSlots" />
-            <marker date="1504269880000" expanded="true" signature="7804:7842" ph="select * fro... providersMap" />
-            <marker date="1504269880000" expanded="true" signature="8082:8399" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="8561:8888" ph="UPDATE adSlo... " />
-            <marker date="1504269880000" expanded="true" signature="8567:8876" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9094:9248" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9412:9565" ph="UPDATE provi... " />
-            <marker date="1504269880000" expanded="true" signature="9418:9555" ph="INSERT INTO providers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9820" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9840" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9861" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9936" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10135:10297" ph="UPDATE publi... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10611" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10831" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10868" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="11040:11313" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="6948:6972" ph="select * fro... Publishers" />
+            <marker date="1504381826000" expanded="true" signature="7199:7222" ph="select * fro... Providers" />
+            <marker date="1504381826000" expanded="true" signature="7449:7489" ph="select * fro... adSlots" />
+            <marker date="1504381826000" expanded="true" signature="7724:7762" ph="select * fro... providersMap" />
+            <marker date="1504381826000" expanded="true" signature="8002:8319" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="8537:8801" ph="UPDATE adSlo... " />
+            <marker date="1504381826000" expanded="true" signature="8543:8789" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9045:9199" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9363:9516" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="9369:9506" ph="INSERT INTO providers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9771" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9791" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9812" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9887" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10086:10248" ph="UPDATE publi... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10562" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10782" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10819" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10991:11207" ph="UPDATE provi... " />
           </folding>
         </state>
       </provider>
@@ -619,25 +601,25 @@
         <state relative-caret-position="45">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <marker date="1504269880000" expanded="true" signature="7028:7052" ph="select * fro... Publishers" />
-            <marker date="1504269880000" expanded="true" signature="7279:7302" ph="select * fro... Providers" />
-            <marker date="1504269880000" expanded="true" signature="7529:7569" ph="select * fro... adSlots" />
-            <marker date="1504269880000" expanded="true" signature="7804:7842" ph="select * fro... providersMap" />
-            <marker date="1504269880000" expanded="true" signature="8082:8399" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="8561:8888" ph="UPDATE adSlo... " />
-            <marker date="1504269880000" expanded="true" signature="8567:8876" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9094:9248" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9412:9565" ph="UPDATE provi... " />
-            <marker date="1504269880000" expanded="true" signature="9418:9555" ph="INSERT INTO providers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9820" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9840" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9861" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9936" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10135:10297" ph="UPDATE publi... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10611" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10831" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10868" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="11040:11313" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="6948:6972" ph="select * fro... Publishers" />
+            <marker date="1504381826000" expanded="true" signature="7199:7222" ph="select * fro... Providers" />
+            <marker date="1504381826000" expanded="true" signature="7449:7489" ph="select * fro... adSlots" />
+            <marker date="1504381826000" expanded="true" signature="7724:7762" ph="select * fro... providersMap" />
+            <marker date="1504381826000" expanded="true" signature="8002:8319" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="8537:8801" ph="UPDATE adSlo... " />
+            <marker date="1504381826000" expanded="true" signature="8543:8789" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9045:9199" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9363:9516" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="9369:9506" ph="INSERT INTO providers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9771" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9791" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9812" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9887" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10086:10248" ph="UPDATE publi... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10562" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10782" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10819" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10991:11207" ph="UPDATE provi... " />
           </folding>
         </state>
       </provider>
@@ -646,9 +628,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -670,9 +650,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -694,9 +672,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -705,25 +681,25 @@
         <state relative-caret-position="45">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <marker date="1504269880000" expanded="true" signature="7028:7052" ph="select * fro... Publishers" />
-            <marker date="1504269880000" expanded="true" signature="7279:7302" ph="select * fro... Providers" />
-            <marker date="1504269880000" expanded="true" signature="7529:7569" ph="select * fro... adSlots" />
-            <marker date="1504269880000" expanded="true" signature="7804:7842" ph="select * fro... providersMap" />
-            <marker date="1504269880000" expanded="true" signature="8082:8399" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="8561:8888" ph="UPDATE adSlo... " />
-            <marker date="1504269880000" expanded="true" signature="8567:8876" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9094:9248" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9412:9565" ph="UPDATE provi... " />
-            <marker date="1504269880000" expanded="true" signature="9418:9555" ph="INSERT INTO providers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9820" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9840" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9861" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9936" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10135:10297" ph="UPDATE publi... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10611" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10831" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10868" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="11040:11313" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="6948:6972" ph="select * fro... Publishers" />
+            <marker date="1504381826000" expanded="true" signature="7199:7222" ph="select * fro... Providers" />
+            <marker date="1504381826000" expanded="true" signature="7449:7489" ph="select * fro... adSlots" />
+            <marker date="1504381826000" expanded="true" signature="7724:7762" ph="select * fro... providersMap" />
+            <marker date="1504381826000" expanded="true" signature="8002:8319" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="8537:8801" ph="UPDATE adSlo... " />
+            <marker date="1504381826000" expanded="true" signature="8543:8789" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9045:9199" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9363:9516" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="9369:9506" ph="INSERT INTO providers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9771" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9791" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9812" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9887" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10086:10248" ph="UPDATE publi... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10562" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10782" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10819" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10991:11207" ph="UPDATE provi... " />
           </folding>
         </state>
       </provider>
@@ -746,9 +722,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -770,9 +744,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -781,25 +753,25 @@
         <state relative-caret-position="632">
           <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding>
-            <marker date="1504269880000" expanded="true" signature="7028:7052" ph="select * fro... Publishers" />
-            <marker date="1504269880000" expanded="true" signature="7279:7302" ph="select * fro... Providers" />
-            <marker date="1504269880000" expanded="true" signature="7529:7569" ph="select * fro... adSlots" />
-            <marker date="1504269880000" expanded="true" signature="7804:7842" ph="select * fro... providersMap" />
-            <marker date="1504269880000" expanded="true" signature="8082:8399" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="8561:8888" ph="UPDATE adSlo... " />
-            <marker date="1504269880000" expanded="true" signature="8567:8876" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9094:9248" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9412:9565" ph="UPDATE provi... " />
-            <marker date="1504269880000" expanded="true" signature="9418:9555" ph="INSERT INTO providers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9820" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9840" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9861" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9936" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10135:10297" ph="UPDATE publi... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10611" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10831" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10868" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="11040:11313" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="6948:6972" ph="select * fro... Publishers" />
+            <marker date="1504381826000" expanded="true" signature="7199:7222" ph="select * fro... Providers" />
+            <marker date="1504381826000" expanded="true" signature="7449:7489" ph="select * fro... adSlots" />
+            <marker date="1504381826000" expanded="true" signature="7724:7762" ph="select * fro... providersMap" />
+            <marker date="1504381826000" expanded="true" signature="8002:8319" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="8537:8801" ph="UPDATE adSlo... " />
+            <marker date="1504381826000" expanded="true" signature="8543:8789" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9045:9199" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9363:9516" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="9369:9506" ph="INSERT INTO providers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9771" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9791" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9812" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9887" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10086:10248" ph="UPDATE publi... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10562" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10782" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10819" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10991:11207" ph="UPDATE provi... " />
           </folding>
         </state>
       </provider>
@@ -809,25 +781,25 @@
         <state relative-caret-position="45">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <marker date="1504269880000" expanded="true" signature="7028:7052" ph="select * fro... Publishers" />
-            <marker date="1504269880000" expanded="true" signature="7279:7302" ph="select * fro... Providers" />
-            <marker date="1504269880000" expanded="true" signature="7529:7569" ph="select * fro... adSlots" />
-            <marker date="1504269880000" expanded="true" signature="7804:7842" ph="select * fro... providersMap" />
-            <marker date="1504269880000" expanded="true" signature="8082:8399" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="8561:8888" ph="UPDATE adSlo... " />
-            <marker date="1504269880000" expanded="true" signature="8567:8876" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9094:9248" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9412:9565" ph="UPDATE provi... " />
-            <marker date="1504269880000" expanded="true" signature="9418:9555" ph="INSERT INTO providers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9820" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9840" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9861" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9936" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10135:10297" ph="UPDATE publi... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10611" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10831" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10868" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="11040:11313" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="6948:6972" ph="select * fro... Publishers" />
+            <marker date="1504381826000" expanded="true" signature="7199:7222" ph="select * fro... Providers" />
+            <marker date="1504381826000" expanded="true" signature="7449:7489" ph="select * fro... adSlots" />
+            <marker date="1504381826000" expanded="true" signature="7724:7762" ph="select * fro... providersMap" />
+            <marker date="1504381826000" expanded="true" signature="8002:8319" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="8537:8801" ph="UPDATE adSlo... " />
+            <marker date="1504381826000" expanded="true" signature="8543:8789" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9045:9199" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9363:9516" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="9369:9506" ph="INSERT INTO providers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9771" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9791" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9812" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9887" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10086:10248" ph="UPDATE publi... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10562" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10782" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10819" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10991:11207" ph="UPDATE provi... " />
           </folding>
         </state>
       </provider>
@@ -836,9 +808,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -860,9 +830,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,11 +849,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Client/config" />
     <entry file="file://$PROJECT_DIR$/src/main/Client/publisher.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Logs/LogModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/admin/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/admin/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/admin/DBReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="226" column="5" lean-forward="true" selection-start-line="220" selection-start-column="3" selection-end-line="226" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/admin/publishers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/admin/adminPublishers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/admin/adminProviders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/admin/adminAdSlots.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="6" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="36" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/admin/adminProvidersMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="126" lean-forward="false" selection-start-line="20" selection-start-column="126" selection-end-line="20" selection-end-column="126" />
           <folding />
         </state>
       </provider>
@@ -898,87 +932,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Client/AuctionManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Client/AdapterManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Logs/LogModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Logs/RenderedAdLog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Logs/BidsResponseLog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Logs/LogManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Logs/AuctionResponseLog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Client/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Client/SlotAuction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/admin/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/admin/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -994,122 +948,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/admin/DBReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/admin/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="226" column="5" lean-forward="true" selection-start-line="220" selection-start-column="3" selection-end-line="226" selection-end-column="5" />
+        <state relative-caret-position="5414">
+          <caret line="370" column="0" lean-forward="false" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Client/Adapter.js">
+    <entry file="file://$PROJECT_DIR$/src/main/admin/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        <state relative-caret-position="135">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/admin/publishers.html">
+    <entry file="file://$PROJECT_DIR$/src/main/Client/config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="343">
+          <caret line="1396" column="0" lean-forward="true" selection-start-line="1384" selection-start-column="0" selection-end-line="1396" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/admin.css">
+    <entry file="file://$PROJECT_DIR$/src/main/Logs/RenderedAdLog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="86">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/admin/adminAdSlots.js">
+    <entry file="file://$PROJECT_DIR$/src/main/Logs/LogManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="403">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/admin/adminProvidersMap.js">
+    <entry file="file://$PROJECT_DIR$/src/main/Client/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="744">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="119" column="94" lean-forward="false" selection-start-line="119" selection-start-column="94" selection-end-line="119" selection-end-column="94" />
+        <state relative-caret-position="1204">
+          <caret line="103" column="15" lean-forward="false" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DBReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="267" column="39" lean-forward="false" selection-start-line="267" selection-start-column="39" selection-end-line="267" selection-end-column="39" />
+        <state relative-caret-position="238">
+          <caret line="159" column="55" lean-forward="false" selection-start-line="159" selection-start-column="55" selection-end-line="159" selection-end-column="55" />
           <folding>
-            <marker date="1504269880000" expanded="true" signature="7028:7052" ph="select * fro... Publishers" />
-            <marker date="1504269880000" expanded="true" signature="7279:7302" ph="select * fro... Providers" />
-            <marker date="1504269880000" expanded="true" signature="7529:7569" ph="select * fro... adSlots" />
-            <marker date="1504269880000" expanded="true" signature="7804:7842" ph="select * fro... providersMap" />
-            <marker date="1504269880000" expanded="true" signature="8082:8399" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="8561:8888" ph="UPDATE adSlo... " />
-            <marker date="1504269880000" expanded="true" signature="8567:8876" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9094:9248" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="9412:9565" ph="UPDATE provi... " />
-            <marker date="1504269880000" expanded="true" signature="9418:9555" ph="INSERT INTO providers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9820" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9840" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9861" ph="INSERT INTO publishers... " />
-            <marker date="1504269880000" expanded="true" signature="9774:9936" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10135:10297" ph="UPDATE publi... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10611" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10831" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="10543:10868" ph="INSERT INTO adSlots... " />
-            <marker date="1504269880000" expanded="true" signature="11040:11313" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="6948:6972" ph="select * fro... Publishers" />
+            <marker date="1504381826000" expanded="true" signature="7199:7222" ph="select * fro... Providers" />
+            <marker date="1504381826000" expanded="true" signature="7449:7489" ph="select * fro... adSlots" />
+            <marker date="1504381826000" expanded="true" signature="7724:7762" ph="select * fro... providersMap" />
+            <marker date="1504381826000" expanded="true" signature="8002:8319" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="8537:8801" ph="UPDATE adSlo... " />
+            <marker date="1504381826000" expanded="true" signature="8543:8789" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9045:9199" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="9363:9516" ph="UPDATE provi... " />
+            <marker date="1504381826000" expanded="true" signature="9369:9506" ph="INSERT INTO providers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9771" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9791" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9812" ph="INSERT INTO publishers... " />
+            <marker date="1504381826000" expanded="true" signature="9725:9887" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10086:10248" ph="UPDATE publi... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10562" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10782" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10494:10819" ph="INSERT INTO adSlots... " />
+            <marker date="1504381826000" expanded="true" signature="10991:11207" ph="UPDATE provi... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/admin/admin.js">
+    <entry file="file://$PROJECT_DIR$/src/main/Logs/BidsResponseLog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/admin/adminProviders.js">
+    <entry file="file://$PROJECT_DIR$/src/main/Client/Adapter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="36" column="104" lean-forward="false" selection-start-line="36" selection-start-column="104" selection-end-line="36" selection-end-column="104" />
+        <state relative-caret-position="156">
+          <caret line="62" column="73" lean-forward="true" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/admin/admin.html">
+    <entry file="file://$PROJECT_DIR$/src/main/Logs/AuctionResponseLog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="132" column="90" lean-forward="false" selection-start-line="132" selection-start-column="90" selection-end-line="132" selection-end-column="90" />
-          <folding>
-            <element signature="e#3332#3339#1" expanded="true" />
-            <element signature="e#5143#5150#1" expanded="true" />
-            <element signature="e#7006#7013#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/admin/adminPublishers.js">
+    <entry file="file://$PROJECT_DIR$/src/main/Client/SlotAuction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="36" column="92" lean-forward="true" selection-start-line="36" selection-start-column="92" selection-end-line="36" selection-end-column="92" />
+        <state relative-caret-position="-493">
+          <caret line="44" column="124" lean-forward="false" selection-start-line="44" selection-start-column="124" selection-end-line="44" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Client/AuctionManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           <folding />
         </state>
       </provider>

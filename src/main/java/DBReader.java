@@ -148,7 +148,7 @@ public class  DBReader {
         if(jsonArray.length()==0){
             return " ";
         }
-        String query="INSERT INTO bidsResponseLog (adID,prID,bid,noBid,timestamp,participatedFlag) VALUES";
+        String query="INSERT INTO bidsResponseLog (adID,prID,bid,noBid,timestamp) VALUES";
         for(int i=0,size=jsonArray.length();i<size;i++){
 
             query+=" (";
@@ -157,8 +157,8 @@ public class  DBReader {
             query+=objectINArray.getString("prID")+",";
             query+=objectINArray.getString("bid")+",";
             query+=objectINArray.getString("NO BID")+",";
-            query+=objectINArray.getString("timeStamp")+",";
-            query+=objectINArray.getString("participated");
+            query+=objectINArray.getString("timeStamp");
+
 
             query+="),";
         }
@@ -171,7 +171,7 @@ public class  DBReader {
         if(jsonArray.length()==0){
             return " ";
         }
-        String query="INSERT INTO auctionResponseLog (adID,prID,bid,timestamp,winnerFlag) VALUES";
+        String query="INSERT INTO auctionResponseLog (adID,prID,bid,timestamp,statusFlag) VALUES";
         for(int i=0,size=jsonArray.length();i<size;i++){
 
             query+=" (";
@@ -180,7 +180,7 @@ public class  DBReader {
             query+=objectINArray.getString("prID")+",";
             query+=objectINArray.getString("bid")+",";
             query+=objectINArray.getString("timeStamp")+",";
-            query+=objectINArray.getString("winnerFlag");
+            query+=objectINArray.getString("statusFlag");
 
             query+="),";
         }
@@ -259,14 +259,14 @@ public class  DBReader {
 
     public String updateAdSlot(JSONObject adSlot) throws Exception{
 
-        String query="UPDATE adSlots set publisherID="+
-                adSlot.getInt("publisherID")+", size_height="
+        //System.out.println(adSlot.getString("name"));
+        String query="UPDATE adSlots set  size_height="
                 +adSlot.getInt("size_height")+", size_width="
                 +adSlot.getInt("size_width")+", name='"
                 +adSlot.getString("name")+"', divID='"
-                +adSlot.getString("divID")+"') where adID="
+                +adSlot.getString("divID")+"' where adID="
                 +adSlot.getString("adID");
-
+        //System.out.println((query));
         statement.executeUpdate(query);
         return "";
 
@@ -326,13 +326,11 @@ public class  DBReader {
     }
 
     public String updateProvidersMap(JSONObject providersMap) throws Exception{
-        String query="UPDATE providersMap set prID="
-
-                +providersMap.getInt("prID")+",revShare="
+        String query="UPDATE providersMap set revShare="
                 +providersMap.getInt("revShare")+",epc="
                 +providersMap.getString("epc")+",floorPrice="
-                +providersMap.getInt("floorPrice")+" where adID="
-                +providersMap.getInt("adID");
+                +providersMap.getInt("floorPrice")+" where id="
+                +providersMap.getInt("id");
 
         statement.executeUpdate(query);
         return "";

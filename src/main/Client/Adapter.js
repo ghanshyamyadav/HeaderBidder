@@ -22,12 +22,13 @@ moduleManager.addModule("Adapter",["AuctionManager","BidsResponseLog"],function(
                     var requestObject = {};
                     requestObject.adID = adSlotIDs[i];
                     requestObject.epc = config.providersMap[adSlotIDs[i]][providerIDs[j]].epc;
-                    requestObject.entryPoint = config.providers[providerIDs[j]].entryPoint;
+                    requestObject.entryPoint = encodeURIComponent(config.providers[providerIDs[j]].entryPoint);
+
                     requestObject.prID = config.providers[providerIDs[j]].id;
                     //console.log(config.adSlots[adSlotIDs[i]]);
                     //console.log((config.adSlots[adSlotIDs[i]]).size_height);
                     requestObject.size_height = (config.adSlots[adSlotIDs[i]]).size_height;
-
+                    console.log(requestData);
                     requestArray.push(requestObject);
                 }
 
@@ -64,6 +65,7 @@ moduleManager.addModule("Adapter",["AuctionManager","BidsResponseLog"],function(
            // console.log(response[i].bid);
             //response[i].bid=response[i].bid-(config.providersMap[response[i].adID][response[i].prID].revShare*response[i].bid);
             bidsDetail[response[i].adID].push(response[i]);
+            bidsResponseLog.addLog(response[i]);
 
 
         }

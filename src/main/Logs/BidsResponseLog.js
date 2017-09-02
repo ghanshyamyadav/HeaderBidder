@@ -3,30 +3,11 @@ moduleManager.addModule("BidsResponseLog",["LogModule"],function func(logModule)
 
     var logs=[];
 
-    function addAuctionNotParticipatedLog(bidDetails) {
 
-
-        var log=createLogObject(bidDetails);
-        log.participated=false;
-        logs.push(log);
-
-        console.log(log);
-
-    }
-
-    function addAuctionParticipatedLog(bidDetails) {
-
-
-        var log=createLogObject(bidDetails);
-        log.participated=true;
-        logs.push(log);
-
-
-    }
 
     function  addLog(bidsDetail){
 
-        var log=createLogObject(bidDetails);
+        var log=createLogObject(bidsDetail);
         logs.push(log);
     }
 
@@ -49,8 +30,7 @@ moduleManager.addModule("BidsResponseLog",["LogModule"],function func(logModule)
 
     return{
 
-        addAuctionNotParticipatedLog:addAuctionNotParticipatedLog,
-        addAuctionParticipatedLog:addAuctionParticipatedLog,
+
         getLogs:getLogs,
         addLog:addLog
 

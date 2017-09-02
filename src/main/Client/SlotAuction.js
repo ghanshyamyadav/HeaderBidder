@@ -15,7 +15,7 @@ moduleManager.addModule("SlotAuction",["BidsResponseLog","AuctionResponseLog"], 
 
             adID = adid;
             bidsExpected=Object.keys(config.providersMap[adID]).length;
-            _timer=setTimeout(closeAuction, 1000);
+           // _timer=setTimeout(closeAuction, 1000);
             isAuctionClosed = false;
 
         }
@@ -25,7 +25,7 @@ moduleManager.addModule("SlotAuction",["BidsResponseLog","AuctionResponseLog"], 
 
             isAuctionClosed = true;
             //bidsResponseLog.addLogToServer();
-            performAuction();
+           // performAuction();
 
 
         }
@@ -34,31 +34,29 @@ moduleManager.addModule("SlotAuction",["BidsResponseLog","AuctionResponseLog"], 
 
             if (!isAuctionClosed) {
 
-                bidDetails.bid=parseInt(bidDetails.bid);
-
-                if(bidsDetail["NO BID"] || bidDetails.bid<config.providersMap[bidDetails.adID][bidDetails.prID].floorPrice)
-                {
-
-
-                    bidsResponseLog.addAuctionNotParticipatedLog(bidDetails);
-                    return;
-                }
-                bidDetails.bid=bidDetails.bid-(config.providersMap[bidDetails.adID][bidDetails.prID].revShare*bidDetails.bid);
-                bidsDetail.push(bidDetails);
-
-                console.log(bidDetails);
                 if(bidsExpected==(++bidsReceived)){
 
                     clearTimeout(_timer);
                     closeAuction();
                 }
-                bidsResponseLog.addAuctionParticipatedLog(bidDetails);
+
+                bidDetails.bid=parseInt(bidDetails.bid);
+
+                if(bidsDetail["NO BID"] || bidDetails.bid<config.providersMap[bidDetails.adID][bidDetails.prID].floorPrice){
+                      return;
+                }
+                bidDetails.bid=bidDetails.bid-(config.providersMap[bidDetails.adID][bidDetails.prID].revShare*bidDetails.bid);
+                bidsDetail.push(bidDetails);
+
+                console.log(bidDetails);
+
+
 
             }
             else {
 
 
-                bidsResponseLog.addAuctionNotParticipatedLog(bidDetails);
+                auctionResponseLog.addAuctionTimeoutLog(bidDetails);
             }
 
 
@@ -66,7 +64,7 @@ moduleManager.addModule("SlotAuction",["BidsResponseLog","AuctionResponseLog"], 
 
         var performAuction = function () {
 
-
+            closeAuction();
             //this.winnerBid=
             var maxBid = {};
 
@@ -74,8 +72,18 @@ moduleManager.addModule("SlotAuction",["BidsResponseLog","AuctionResponseLog"], 
                 maxBid = bidsDetail[0];
                 //maxBid.bid=0;
                 for (var i = 0; i < bidsDetail.length; i++) {
-                    maxBid = (maxBid.bid > bidsDetail[i].bid) ? maxBid : bidsDetail[i];
-                    //console.log(bidsDetail[i]);
+                    // (maxBid.bid > bidsDetail[i].bid) ? maxBid : bidsDetail[i];
+                    if(maxBid.bid > bidsDetail[i].bid){
+
+                        auctionResponseLog.addAuctionParticipatedLog(bidsDetail[i]);
+                    }
+                    else{
+
+
+                        auctionResponseLog.addAuctionParticipatedLog(maxBid);
+                        maxBid=bidsDetail[i];
+                    }
+
                 }
             }
             winnerBidDetais = maxBid;
@@ -85,6 +93,7 @@ moduleManager.addModule("SlotAuction",["BidsResponseLog","AuctionResponseLog"], 
 
         function getWinnerBidDetails() {
 
+            performAuction();
             return winnerBidDetais;
 
         }
